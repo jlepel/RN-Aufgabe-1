@@ -1,0 +1,1363 @@
+
+2012-11-18 12:28:32.074 TCP Server Thread 1 has written the message: +OK POP3 server ready
+2012-11-18 12:28:38.105 TCP Server Thread detected job: user mett@bla.de
+2012-11-18 12:28:38.106 TCP Server Thread 1 has written the message: +OK password required for user 'mett@bla.de'
+2012-11-18 12:28:40.865 TCP Server Thread detected job: pass mett
+2012-11-18 12:28:40.866 TCP Server Thread 1 has written the message: +OK mett@bla.de has 0 massages
+2012-11-18 12:30:25.315 TCP Server Thread 1 has written the message: +OK POP3 server ready
+2012-11-18 12:30:28.728 TCP Server Thread detected job: user mett@bla.de
+2012-11-18 12:30:28.729 TCP Server Thread 1 has written the message: +OK password required for user 'mett@bla.de'
+2012-11-18 12:30:30.807 TCP Server Thread detected job: pass mett
+2012-11-18 12:30:30.809 TCP Server Thread 1 has written the message: +OK mett@bla.de has 0 massages
+2012-11-18 12:31:43.507 TCP Server Thread 1 has written the message: +OK POP3 server ready
+2012-11-18 12:31:46.336 TCP Server Thread detected job: user mett
+2012-11-18 12:31:46.337 TCP Server Thread 1 has written the message: +OK password required for user 'mett'
+2012-11-18 12:31:48.08 TCP Server Thread detected job: pass mett
+2012-11-18 12:31:48.081 TCP Server Thread 1 has written the message: +OK mett has 0 massages<0octets>
+2012-11-18 12:34:02.217 TCP Server Thread 1 has written the message: +OK POP3 server ready
+2012-11-18 12:34:03.838 TCP Server Thread detected job: m
+2012-11-18 12:34:03.839 TCP Server Thread 1 has written the message: -ERR no valid command
+2012-11-18 12:34:03.84 TCP Server Thread 1 has written the message: -ERR no valid command
+2012-11-18 12:34:06.119 TCP Server Thread detected job: user mett
+2012-11-18 12:34:06.12 TCP Server Thread 1 has written the message: +OK password required for user 'mett'
+2012-11-18 12:34:07.942 TCP Server Thread detected job: pass mett
+2012-11-18 12:34:07.944 TCP Server Thread 1 has written the message: +OK mett has 0 massages <0 octets>
+2012-11-18 12:34:11.766 TCP Server Thread detected job: wuit
+2012-11-18 12:34:11.767 TCP Server Thread 1 has written the message: -ERR unknown command
+2012-11-18 12:34:13.646 TCP Server Thread detected job: quit
+2012-11-18 12:34:13.647 TCP Server Thread 1 has written the message: +OK POP3 Server singing off
+2012-11-18 12:35:35.771 +OK POP server ready H miweb113
+2012-11-18 12:35:35.781 +OK POP server ready H miweb113
+2012-11-18 12:35:35.782 TCP Client has sent the message: USER fhtestmailer@web.de
+2012-11-18 12:35:35.84 +OK password required for user "fhtestmailer@web.de"
+2012-11-18 12:35:35.843 TCP Client has sent the message: PASS fhtestmailer123
+2012-11-18 12:35:36.0 +OK mailbox "fhtestmailer@web.de" has 0 messages (0 octets) H miweb113
+2012-11-18 12:35:36.001 TCP Client has sent the message: STAT
+2012-11-18 12:35:36.06 +OK 0 0
+2012-11-18 12:35:36.061 TCP Client has sent the message: QUIT
+2012-11-18 12:36:42.812 +OK POP server ready H miweb116
+2012-11-18 12:36:42.817 +OK POP server ready H miweb116
+2012-11-18 12:36:42.818 TCP Client has sent the message: USER fhtestmailer@web.de
+2012-11-18 12:36:42.866 +OK password required for user "fhtestmailer@web.de"
+2012-11-18 12:36:42.867 TCP Client has sent the message: PASS fhtestmailer123
+2012-11-18 12:36:42.975 +OK mailbox "fhtestmailer@web.de" has 0 messages (0 octets) H miweb116
+2012-11-18 12:36:42.976 TCP Client has sent the message: STAT
+2012-11-18 12:36:43.062 +OK 0 0
+2012-11-18 12:36:43.063 TCP Client has sent the message: QUIT
+2012-11-18 12:36:43.126 +OK POP server ready H miweb109
+2012-11-18 12:36:43.126 +OK POP server ready H miweb109
+2012-11-18 12:36:43.127 TCP Client has sent the message: USER fhmailer@web.de
+2012-11-18 12:36:43.186 +OK password required for user "fhmailer@web.de"
+2012-11-18 12:36:43.187 TCP Client has sent the message: PASS fhmailer123
+2012-11-18 12:36:43.332 +OK mailbox "fhmailer@web.de" has 1 messages (5592 octets) H miweb109
+2012-11-18 12:36:43.333 TCP Client has sent the message: STAT
+2012-11-18 12:36:43.432 +OK 1 5592
+2012-11-18 12:36:43.433 TCP Client has sent the message: UIDL 1
+2012-11-18 12:36:43.53 +OK 1 0LoFsr-1T3DIj1VPN-00gA20
+2012-11-18 12:36:43.531 TCP Client has sent the message: RETR 1
+2012-11-18 12:36:43.628 +OK
+2012-11-18 12:36:43.658 Return-Path: janlepel@aol.com
+2012-11-18 12:36:43.661 Received: from imr-da05.mx.aol.com ([205.188.105.147]) by mx-ha.web.de
+2012-11-18 12:36:43.661  (mxweb101) with ESMTP (Nemesis) id 0LoFsr-1T3DIj1VPN-00gA20 for
+2012-11-18 12:36:43.662  <fhmailer@web.de>; Sun, 18 Nov 2012 12:34:36 +0100
+2012-11-18 12:36:43.663 Received: from mtaout-mb05.r1000.mx.aol.com (mtaout-mb05.r1000.mx.aol.com [172.29.41.69])
+2012-11-18 12:36:43.664 	by imr-da05.mx.aol.com (8.14.1/8.14.1) with ESMTP id qAIBYVki001881
+2012-11-18 12:36:43.665 	for <fhmailer@web.de>; Sun, 18 Nov 2012 06:34:31 -0500
+2012-11-18 12:36:43.666 Received: from DerDocPC (31-18-150-175-dynip.superkabel.de [31.18.150.175])
+2012-11-18 12:36:43.667 	(using TLSv1 with cipher AES128-SHA (128/128 bits))
+2012-11-18 12:36:43.667 	(No client certificate requested)
+2012-11-18 12:36:43.668 	by mtaout-mb05.r1000.mx.aol.com (MUA/Third Party Client Interface) with ESMTPSA id 20FE1E000160
+2012-11-18 12:36:43.669 	for <fhmailer@web.de>; Sun, 18 Nov 2012 06:34:31 -0500 (EST)
+2012-11-18 12:36:43.67 From: "Jan Lepel" <janlepel@aol.com>
+2012-11-18 12:36:43.671 To: <fhmailer@web.de>
+2012-11-18 12:36:43.672 Subject: 22222222222
+2012-11-18 12:36:43.672 Date: Sun, 18 Nov 2012 12:34:36 +0100
+2012-11-18 12:36:43.673 Message-ID: <006901cdc580$b22cd220$16867660$@aol.com>
+2012-11-18 12:36:43.674 MIME-Version: 1.0
+2012-11-18 12:36:43.675 Content-Type: multipart/alternative;
+2012-11-18 12:36:43.675 	boundary="----=_NextPart_000_006A_01CDC589.13F1D660"
+2012-11-18 12:36:43.676 X-Mailer: Microsoft Outlook 14.0
+2012-11-18 12:36:43.677 Thread-Index: Ac3FgKu6c1rNpMvLT26UqbAsf6iSlw==
+2012-11-18 12:36:43.678 Content-Language: de
+2012-11-18 12:36:43.679 x-aol-global-disposition: G
+2012-11-18 12:36:43.679 DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mx.aol.com;
+2012-11-18 12:36:43.68 	s=20110426; t=1353238471;
+2012-11-18 12:36:43.681 	bh=UgP+Vuhw2CtyEzihpUfBEzMM4A4yMdqWLnNwcWa3SHs=;
+2012-11-18 12:36:43.682 	h=From:To:Subject:Message-ID:Date:MIME-Version:Content-Type;
+2012-11-18 12:36:43.682 	b=EYC4/hEezjT7dxODhNZHLnusov3qVkNpvfB1dTBfeevC8dxGBsw/W7lznFk/fSapR
+2012-11-18 12:36:43.683 	 tuxbHL7VC30YbrHnsu8H4tJHTouU49ixaZHv5Nt8sAWdgvU4LxbP1VnGTjSDUsMnzs
+2012-11-18 12:36:43.684 	 cr1kiOCrflixJSqiAJS3p2gWMmu0I1oXfx53iOAw=
+2012-11-18 12:36:43.685 X-AOL-SCOLL-SCORE: 0:5:56714352:93952408  
+2012-11-18 12:36:43.686 X-AOL-SCOLL-URL_COUNT: 0  
+2012-11-18 12:36:43.686 x-aol-sid: 3039ac1d294550a8c7c5188a
+2012-11-18 12:36:43.687 X-AOL-IP: 31.18.150.175
+2012-11-18 12:36:43.688 Envelope-To: <fhmailer@web.de>
+2012-11-18 12:36:43.689 X-UI-Filterresults: ;V01:K0:RFLS11P2:QStNeTPA1VBtG9qzOfiwIagfD8DvDCWezY7
+2012-11-18 12:36:43.689  tYL57uKBJDpxEBtm0/gvnsSiNB7NceMdF3Qhj5D6+NjxsumLrWZ5wtQnm2UPmSrj9xuVMZ9
+2012-11-18 12:36:43.69  sRiavIB3x/X4l9stpLfGmXssTVk2o3la3gp6THcH/FHe7Shn0auqBkpT1YS8wjYjUgGrf/O
+2012-11-18 12:36:43.691  IxvtwKZzfAS5ao8ApMDEkyMOGb4DnMrc9dSEV4SKJTPU8OkgC4YGgt4Oa161dpweiJmS8Ge
+2012-11-18 12:36:43.692  GTCbp5xmOdP+vcnELxiA9MnzcU65Z9rxsZfkZjFC/oBvr+NEQDMrrXnVSbrslOt7T+w8VQ8
+2012-11-18 12:36:43.693  GPzeYn4TottT4UZZIi6YALocAAAkrHoIW1XRRjIH979F+mSdErnMBy5Sc/+HPgD/Zs8vMEB
+2012-11-18 12:36:43.693  HXV7E4ZSePmIhMoh32AcehYd+M8IpQhT/EcQMtlKILnnWLYGi03F0Ty/OKMMcwUC2fvJunj
+2012-11-18 12:36:43.694  Ylvg+JKXzGggk1cyGaRHmFMCI9+HSiPRBqpsyFErlSO1Vc8nl8qiHjg2c7CvNNM1f03rOPt
+2012-11-18 12:36:43.695  ml3o5Dk4MTIq3J567SNYSgx3Qf5qbgwanpFcPfkEUicwMTQ9Zq6KAe3isPdG1+rG9Bv/l9T
+2012-11-18 12:36:43.696  s7REEu5ueFvCHLzMsIhWpkA90CbgVwve7ybUjlqK6JIuQjiV7Pk/nk1XGsnxxAutLqYRnrz
+2012-11-18 12:36:43.696  oFe5BCtu3iDlgZwRI0vAg38kRrexX5wBkmSFsu1c1ILlqmEbblGVojcS9IPykFnNDrRFsS9
+2012-11-18 12:36:43.697  1jVXLHjVBu4M93uYji8ndsiU0+sstB/BS+rofMhZo2xdx4D/wKzAgapEu9dDFBSQrH/IwHM
+2012-11-18 12:36:43.697  7BPxF9MsoDQarGEg//NleQqORc/75xrWfKDjcT8e/dDrG3R6iHxB+731beGq23H3m0LtOqP
+2012-11-18 12:36:43.697  ykH6j3lUXICbJzLjPw0QtRJMRznEYsvvaFAHpe9jaYSXmYxJdq8MYcViLn1y61kh+DWa9UV
+2012-11-18 12:36:43.698  2TIJJOpwFJ96RxHY8Ew2zXDjZdBldO/xxdjxZNf+WHW9BHIkU6gY6XqC25Y2pq9hWqthl0m
+2012-11-18 12:36:43.698  gFQtoy01mZlchHMI8ibZSS4T1EENvL/bdLEYbAxHinKwZd8UejNEuiTzPk7CVMX4EKuUEDP
+2012-11-18 12:36:43.699  7wTBk5Eme6bjya5hRtSdlhMAEc9K5ccpy94obdAkN7CFI8icb+k5
+2012-11-18 12:36:43.699 
+2012-11-18 12:36:43.699 This is a multipart message in MIME format.
+2012-11-18 12:36:43.7 
+2012-11-18 12:36:43.7 ------=_NextPart_000_006A_01CDC589.13F1D660
+2012-11-18 12:36:43.7 Content-Type: text/plain;
+2012-11-18 12:36:43.701 	charset="US-ASCII"
+2012-11-18 12:36:43.701 Content-Transfer-Encoding: 7bit
+2012-11-18 12:36:43.702 
+2012-11-18 12:36:43.702 2222222222
+2012-11-18 12:36:43.702 
+2012-11-18 12:36:43.703 2222222222
+2012-11-18 12:36:43.703 
+2012-11-18 12:36:43.703  
+2012-11-18 12:36:43.704 
+2012-11-18 12:36:43.704 2222222222
+2012-11-18 12:36:43.704 
+2012-11-18 12:36:43.705  
+2012-11-18 12:36:43.705 
+2012-11-18 12:36:43.705 2222222222
+2012-11-18 12:36:43.706 
+2012-11-18 12:36:43.706  
+2012-11-18 12:36:43.706 
+2012-11-18 12:36:43.707 2222222222
+2012-11-18 12:36:43.707 
+2012-11-18 12:36:43.707  
+2012-11-18 12:36:43.708 
+2012-11-18 12:36:43.708 
+2012-11-18 12:36:43.708 ------=_NextPart_000_006A_01CDC589.13F1D660
+2012-11-18 12:36:43.709 Content-Type: text/html;
+2012-11-18 12:36:43.709 	charset="US-ASCII"
+2012-11-18 12:36:43.709 Content-Transfer-Encoding: quoted-printable
+2012-11-18 12:36:43.71 
+2012-11-18 12:36:43.71 <html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+2012-11-18 12:36:43.71 xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+2012-11-18 12:36:43.711 xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+2012-11-18 12:36:43.711 xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+2012-11-18 12:36:43.712 xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+2012-11-18 12:36:43.712 HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+2012-11-18 12:36:43.712 charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 14 =
+2012-11-18 12:36:43.713 (filtered medium)"><style><!--
+2012-11-18 12:36:43.713 /* Font Definitions */
+2012-11-18 12:36:43.713 @font-face
+2012-11-18 12:36:43.714 	{font-family:"Cambria Math";
+2012-11-18 12:36:43.714 	panose-1:2 4 5 3 5 4 6 3 2 4;}
+2012-11-18 12:36:43.714 @font-face
+2012-11-18 12:36:43.715 	{font-family:Calibri;
+2012-11-18 12:36:43.715 	panose-1:2 15 5 2 2 2 4 3 2 4;}
+2012-11-18 12:36:43.715 /* Style Definitions */
+2012-11-18 12:36:43.716 p.MsoNormal, li.MsoNormal, div.MsoNormal
+2012-11-18 12:36:43.716 	{margin:0cm;
+2012-11-18 12:36:43.716 	margin-bottom:.0001pt;
+2012-11-18 12:36:43.717 	font-size:11.0pt;
+2012-11-18 12:36:43.717 	font-family:"Calibri","sans-serif";
+2012-11-18 12:36:43.717 	mso-fareast-language:EN-US;}
+2012-11-18 12:36:43.718 a:link, span.MsoHyperlink
+2012-11-18 12:36:43.718 	{mso-style-priority:99;
+2012-11-18 12:36:43.718 	color:blue;
+2012-11-18 12:36:43.719 	text-decoration:underline;}
+2012-11-18 12:36:43.719 a:visited, span.MsoHyperlinkFollowed
+2012-11-18 12:36:43.719 	{mso-style-priority:99;
+2012-11-18 12:36:43.72 	color:purple;
+2012-11-18 12:36:43.72 	text-decoration:underline;}
+2012-11-18 12:36:43.721 span.E-MailFormatvorlage17
+2012-11-18 12:36:43.721 	{mso-style-type:personal-compose;
+2012-11-18 12:36:43.721 	font-family:"Calibri","sans-serif";
+2012-11-18 12:36:43.722 	color:windowtext;}
+2012-11-18 12:36:43.722 ..MsoChpDefault
+2012-11-18 12:36:43.722 	{mso-style-type:export-only;
+2012-11-18 12:36:43.723 	font-family:"Calibri","sans-serif";
+2012-11-18 12:36:43.723 	mso-fareast-language:EN-US;}
+2012-11-18 12:36:43.723 @page WordSection1
+2012-11-18 12:36:43.724 	{size:612.0pt 792.0pt;
+2012-11-18 12:36:43.724 	margin:70.85pt 70.85pt 2.0cm 70.85pt;}
+2012-11-18 12:36:43.724 div.WordSection1
+2012-11-18 12:36:43.725 	{page:WordSection1;}
+2012-11-18 12:36:43.725 --></style><!--[if gte mso 9]><xml>
+2012-11-18 12:36:43.725 <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+2012-11-18 12:36:43.726 </xml><![endif]--><!--[if gte mso 9]><xml>
+2012-11-18 12:36:43.726 <o:shapelayout v:ext=3D"edit">
+2012-11-18 12:36:43.726 <o:idmap v:ext=3D"edit" data=3D"1" />
+2012-11-18 12:36:43.727 </o:shapelayout></xml><![endif]--></head><body lang=3DDE link=3Dblue =
+2012-11-18 12:36:43.727 vlink=3Dpurple><div class=3DWordSection1><p =
+2012-11-18 12:36:43.728 class=3DMsoNormal>2222222222<o:p></o:p></p><p =
+2012-11-18 12:36:43.728 class=3DMsoNormal>2222222222<o:p></o:p></p><p =
+2012-11-18 12:36:43.728 class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+2012-11-18 12:36:43.729 class=3DMsoNormal>2222222222<o:p></o:p></p><p =
+2012-11-18 12:36:43.729 class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+2012-11-18 12:36:43.729 class=3DMsoNormal>2222222222<o:p></o:p></p><p =
+2012-11-18 12:36:43.73 class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+2012-11-18 12:36:43.73 class=3DMsoNormal>2222222222<o:p></o:p></p><p =
+2012-11-18 12:36:43.73 class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body></html>
+2012-11-18 12:36:43.731 ------=_NextPart_000_006A_01CDC589.13F1D660--
+2012-11-18 12:36:43.731 
+2012-11-18 12:36:43.731 .
+2012-11-18 12:36:43.732 TCP Client has sent the message: DELE 1
+2012-11-18 12:36:43.832 +OK
+2012-11-18 12:36:43.832 TCP Client has sent the message: QUIT
+2012-11-18 12:36:51.554 TCP Server Thread 2 has written the message: +OK POP3 server ready
+2012-11-18 12:36:55.037 TCP Server Thread detected job: user mett
+2012-11-18 12:36:55.038 TCP Server Thread 2 has written the message: +OK password required for user 'mett'
+2012-11-18 12:36:57.789 TCP Server Thread detected job: pass mett
+2012-11-18 12:36:57.79 TCP Server Thread 2 has written the message: +OK mett has 1 massages <5449 octets>
+2012-11-18 12:37:23.895 +OK POP server ready H miweb104
+2012-11-18 12:37:23.896 +OK POP server ready H miweb104
+2012-11-18 12:37:23.896 TCP Client has sent the message: USER fhtestmailer@web.de
+2012-11-18 12:37:23.955 +OK password required for user "fhtestmailer@web.de"
+2012-11-18 12:37:23.956 TCP Client has sent the message: PASS fhtestmailer123
+2012-11-18 12:37:24.086 -ERR login only every 720 seconds allowed
+2012-11-18 12:37:24.087 TCP Client has sent the message: QUIT
+2012-11-18 12:37:24.14 +OK POP server ready H miweb101
+2012-11-18 12:37:24.141 +OK POP server ready H miweb101
+2012-11-18 12:37:24.141 TCP Client has sent the message: USER fhmailer@web.de
+2012-11-18 12:37:24.187 +OK password required for user "fhmailer@web.de"
+2012-11-18 12:37:24.188 TCP Client has sent the message: PASS fhmailer123
+2012-11-18 12:37:24.29 -ERR login only every 720 seconds allowed
+2012-11-18 12:37:24.291 TCP Client has sent the message: QUIT
+2012-11-18 12:39:49.36 +OK POP server ready H miweb113
+2012-11-18 12:39:49.367 +OK POP server ready H miweb113
+2012-11-18 12:39:49.368 TCP Client has sent the message: USER fhtestmailer@web.de
+2012-11-18 12:39:49.427 +OK password required for user "fhtestmailer@web.de"
+2012-11-18 12:39:49.433 TCP Client has sent the message: PASS fhtestmailer123
+2012-11-18 12:39:49.764 +OK mailbox "fhtestmailer@web.de" has 0 messages (0 octets) H miweb113
+2012-11-18 12:39:49.765 TCP Client has sent the message: STAT
+2012-11-18 12:39:49.824 +OK 0 0
+2012-11-18 12:39:49.825 TCP Client has sent the message: QUIT
+2012-11-18 12:39:49.875 +OK POP server ready H miweb104
+2012-11-18 12:39:49.876 +OK POP server ready H miweb104
+2012-11-18 12:39:49.877 TCP Client has sent the message: USER fhmailer@web.de
+2012-11-18 12:39:49.928 +OK password required for user "fhmailer@web.de"
+2012-11-18 12:39:49.928 TCP Client has sent the message: PASS fhmailer123
+2012-11-18 12:39:50.035 -ERR login only every 720 seconds allowed
+2012-11-18 12:39:50.036 TCP Client has sent the message: QUIT
+2012-11-18 12:40:30.087 +OK POP server ready H miweb109
+2012-11-18 12:40:30.087 +OK POP server ready H miweb109
+2012-11-18 12:40:30.088 TCP Client has sent the message: USER fhtestmailer@web.de
+2012-11-18 12:40:30.134 +OK password required for user "fhtestmailer@web.de"
+2012-11-18 12:40:30.135 TCP Client has sent the message: PASS fhtestmailer123
+2012-11-18 12:40:30.255 -ERR login only every 720 seconds allowed
+2012-11-18 12:40:30.256 TCP Client has sent the message: QUIT
+2012-11-18 12:40:30.318 +OK POP server ready H miweb112
+2012-11-18 12:40:30.319 +OK POP server ready H miweb112
+2012-11-18 12:40:30.319 TCP Client has sent the message: USER fhmailer@web.de
+2012-11-18 12:40:30.381 +OK password required for user "fhmailer@web.de"
+2012-11-18 12:40:30.382 TCP Client has sent the message: PASS fhmailer123
+2012-11-18 12:40:30.509 +OK mailbox "fhmailer@web.de" has 1 messages (6178 octets) H miweb112
+2012-11-18 12:40:30.51 TCP Client has sent the message: STAT
+2012-11-18 12:40:30.608 +OK 1 6178
+2012-11-18 12:40:30.609 TCP Client has sent the message: UIDL 1
+2012-11-18 12:40:30.705 +OK 1 0MaHgO-1TpN8Z1Riy-00KGHF
+2012-11-18 12:40:30.706 TCP Client has sent the message: RETR 1
+2012-11-18 12:40:30.808 +OK
+2012-11-18 12:40:30.842 Return-Path: janlepel@aol.com
+2012-11-18 12:40:30.844 Received: from imr-db01.mx.aol.com ([205.188.91.95]) by mx-ha.web.de
+2012-11-18 12:40:30.845  (mxweb004) with ESMTP (Nemesis) id 0MaHgO-1TpN8Z1Riy-00KGHF for
+2012-11-18 12:40:30.846  <fhmailer@web.de>; Sun, 18 Nov 2012 12:38:55 +0100
+2012-11-18 12:40:30.847 Received: from mtaout-da04.r1000.mx.aol.com (mtaout-da04.r1000.mx.aol.com [172.29.51.132])
+2012-11-18 12:40:30.848 	by imr-db01.mx.aol.com (Outbound Mail Relay) with ESMTP id C29A138000141
+2012-11-18 12:40:30.848 	for <fhmailer@web.de>; Sun, 18 Nov 2012 06:38:54 -0500 (EST)
+2012-11-18 12:40:30.849 Received: from DerDocPC (31-18-150-175-dynip.superkabel.de [31.18.150.175])
+2012-11-18 12:40:30.85 	(using TLSv1 with cipher AES128-SHA (128/128 bits))
+2012-11-18 12:40:30.851 	(No client certificate requested)
+2012-11-18 12:40:30.852 	by mtaout-da04.r1000.mx.aol.com (MUA/Third Party Client Interface) with ESMTPSA id 16B72E000095
+2012-11-18 12:40:30.853 	for <fhmailer@web.de>; Sun, 18 Nov 2012 06:38:53 -0500 (EST)
+2012-11-18 12:40:30.854 From: "Jan Lepel" <janlepel@aol.com>
+2012-11-18 12:40:30.854 To: <fhmailer@web.de>
+2012-11-18 12:40:30.855 Subject: 11111111111111111
+2012-11-18 12:40:30.856 Date: Sun, 18 Nov 2012 12:39:00 +0100
+2012-11-18 12:40:30.857 Message-ID: <006e01cdc581$4ee95520$ecbbff60$@aol.com>
+2012-11-18 12:40:30.858 MIME-Version: 1.0
+2012-11-18 12:40:30.859 Content-Type: multipart/alternative;
+2012-11-18 12:40:30.859 	boundary="----=_NextPart_000_006F_01CDC589.B0AE5960"
+2012-11-18 12:40:30.86 X-Mailer: Microsoft Outlook 14.0
+2012-11-18 12:40:30.861 Thread-Index: Ac3FgUh41VR3w+prRKy0HQr885cnzg==
+2012-11-18 12:40:30.862 Content-Language: de
+2012-11-18 12:40:30.863 x-aol-global-disposition: G
+2012-11-18 12:40:30.864 DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mx.aol.com;
+2012-11-18 12:40:30.864 	s=20110426; t=1353238734;
+2012-11-18 12:40:30.867 	bh=fvs9Soi820B8ru91QxJOUlM/L44wfGBQN+nZNnixazg=;
+2012-11-18 12:40:30.868 	h=From:To:Subject:Message-ID:Date:MIME-Version:Content-Type;
+2012-11-18 12:40:30.871 	b=LfypYmBxm3Iczh8YJbU/seh3A9rI641AIbkiHUUKKr9Qtjz7awtzWwXSmm/qLrfbO
+2012-11-18 12:40:30.872 	 aId36f6PzIWL/U+isVDATiXFNPqGuZ4/Oqd6ctmdh3vSddIuolWQJKRsMFTVjNbf+x
+2012-11-18 12:40:30.873 	 GEnlKGXr+KLbS2eMekiN3kMuxXqwFaWidwn69KXg=
+2012-11-18 12:40:30.874 X-AOL-SCOLL-SCORE: 0:5:56714352:93952408  
+2012-11-18 12:40:30.874 X-AOL-SCOLL-URL_COUNT: 0  
+2012-11-18 12:40:30.875 x-aol-sid: 3039ac1d338450a8c8cd16f5
+2012-11-18 12:40:30.877 X-AOL-IP: 31.18.150.175
+2012-11-18 12:40:30.878 Envelope-To: <fhmailer@web.de>
+2012-11-18 12:40:30.88 X-UI-Filterresults: ;V01:K0:bBPP9WTB:5QpTp4XajY3bGP/Cw0PLgfcXs//D4AWr3Vn
+2012-11-18 12:40:30.881  CY7WTtO6XWCbWlc0zIAIpHTXdr7e0v3nbkzMBouednIYgwz7kHEnD212lUypfb1tN24J2h4
+2012-11-18 12:40:30.882  BO1h2WeXQd9iNOt8TGyBcHk6piC0C1wQIuwrZcgpnDx4XkPq/MOqVF35E6C6bgCh2s6UNXq
+2012-11-18 12:40:30.883  unwMrC4CfTDll/+P7EZtNndrzh8D50NUvvZ0kLxKAzVl3KJYSaHmiSRvqT404LgZK+d1oPs
+2012-11-18 12:40:30.883  ycO9OF7EtBDrwrfSYDtsKty57CLQC+P8UVYkrCXHu7iQPYCr7Xa3vELfAM8FAXWwjSnOKee
+2012-11-18 12:40:30.884  cAqF1mM0LSpiU94Zczm8B2QOYUaB9nIyj/EZq2rNQ7AwbSKq81mTgdef2XJ4T+d0PbIlmpX
+2012-11-18 12:40:30.885  ZoBeR4cBY5qENafBO0vWUhH2VHDsDjSDodAeVV64urxzpRVhqrrcSOZD40xmKG9a/KrJ8ds
+2012-11-18 12:40:30.886  VZNUyjWny5xcgm3Ptgkv1T5w9vxkicMbbSYOKY71lEg6wTJzcwWWc22te3mOJNTm5e94Bka
+2012-11-18 12:40:30.887  w1hK+5jWJzkp5om2rdVYoPBI92mQoQV5b1TH1miu7bz3dToyeROzx1080jspmYtqDzyg6BY
+2012-11-18 12:40:30.887  IXFC1Kb2d2dGDQTqSQhZ30FTrRf3n1v+fZRhnQKRt1Z2PkXfp/Vs2yeGEe6pE1jlkPRrTvi
+2012-11-18 12:40:30.888  HHAYqZwnOhRmPxteySIUUAlppfnzq2jCyR1T8T9EZjH6FESR1ZV1cxSCPafGNFu2D9Z+Mil
+2012-11-18 12:40:30.888  t063bW6zMXXCzbiFtTrD/bO0G8/ddvTdx4zm4N84uzk94to8WWYn99aAxbe8yrpW5BM2qNY
+2012-11-18 12:40:30.89  zgEWu69nQvzwX/MjzPxBK11d+TMqE27nC33SWdpEiLH5cwebMU/At+jKW++4qNTBEbsuy/D
+2012-11-18 12:40:30.89  DBEg23kYh/WpJSrOD7QBAxUcEJO/MsCQSYURe/iZvlF7J+3TPZLCl1s8kWz/sFFFLUiI7Nn
+2012-11-18 12:40:30.891  UUyYHApZtOCY33DQ6H/mhEqnTWWAzVGWbgFSltx+8cCzwF9LqfavB8dFE5OUUs3PauAn0dd
+2012-11-18 12:40:30.891  jSY6BhLmDSPW6qE/FeWqgjxUM5Xwx4+vcdtjrKGZpktn0ldkBqzfFyHGIuTSIQunuWndEOF
+2012-11-18 12:40:30.891  dF/uMJANUgmSr80Nk98LXFyu98Sg7bWc+TGfS7tnp5uOmq1f5CgD
+2012-11-18 12:40:30.892 
+2012-11-18 12:40:30.893 This is a multipart message in MIME format.
+2012-11-18 12:40:30.893 
+2012-11-18 12:40:30.893 ------=_NextPart_000_006F_01CDC589.B0AE5960
+2012-11-18 12:40:30.894 Content-Type: text/plain;
+2012-11-18 12:40:30.894 	charset="US-ASCII"
+2012-11-18 12:40:30.895 Content-Transfer-Encoding: 7bit
+2012-11-18 12:40:30.895 
+2012-11-18 12:40:30.896 1111111111111111111111111
+2012-11-18 12:40:30.896 
+2012-11-18 12:40:30.897 1111111111111111111111111
+2012-11-18 12:40:30.897 
+2012-11-18 12:40:30.898  
+2012-11-18 12:40:30.898 
+2012-11-18 12:40:30.899 1111111111111111111111111
+2012-11-18 12:40:30.9 
+2012-11-18 12:40:30.9  
+2012-11-18 12:40:30.901 
+2012-11-18 12:40:30.901 1111111111111111111111111
+2012-11-18 12:40:30.901 
+2012-11-18 12:40:30.902  
+2012-11-18 12:40:30.902 
+2012-11-18 12:40:30.903 1111111111111111111111111
+2012-11-18 12:40:30.903 
+2012-11-18 12:40:30.904 1111111111111111111111111
+2012-11-18 12:40:30.904 
+2012-11-18 12:40:30.905  
+2012-11-18 12:40:30.906 
+2012-11-18 12:40:30.906 1111111111111111111111111
+2012-11-18 12:40:30.907 
+2012-11-18 12:40:30.907 1111111111111111111111111
+2012-11-18 12:40:30.907 
+2012-11-18 12:40:30.908 1111111111111111111111111
+2012-11-18 12:40:30.908 
+2012-11-18 12:40:30.909  
+2012-11-18 12:40:30.909 
+2012-11-18 12:40:30.91 
+2012-11-18 12:40:30.91 ------=_NextPart_000_006F_01CDC589.B0AE5960
+2012-11-18 12:40:30.911 Content-Type: text/html;
+2012-11-18 12:40:30.911 	charset="US-ASCII"
+2012-11-18 12:40:30.912 Content-Transfer-Encoding: quoted-printable
+2012-11-18 12:40:30.912 
+2012-11-18 12:40:30.914 <html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+2012-11-18 12:40:30.914 xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+2012-11-18 12:40:30.914 xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+2012-11-18 12:40:30.915 xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+2012-11-18 12:40:30.915 xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+2012-11-18 12:40:30.916 http-equiv=3DContent-Type content=3D"text/html; =
+2012-11-18 12:40:30.916 charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 14 =
+2012-11-18 12:40:30.916 (filtered medium)"><style><!--
+2012-11-18 12:40:30.917 /* Font Definitions */
+2012-11-18 12:40:30.917 @font-face
+2012-11-18 12:40:30.918 	{font-family:"Cambria Math";
+2012-11-18 12:40:30.919 	panose-1:2 4 5 3 5 4 6 3 2 4;}
+2012-11-18 12:40:30.919 @font-face
+2012-11-18 12:40:30.92 	{font-family:Calibri;
+2012-11-18 12:40:30.92 	panose-1:2 15 5 2 2 2 4 3 2 4;}
+2012-11-18 12:40:30.92 /* Style Definitions */
+2012-11-18 12:40:30.921 p.MsoNormal, li.MsoNormal, div.MsoNormal
+2012-11-18 12:40:30.922 	{margin:0cm;
+2012-11-18 12:40:30.922 	margin-bottom:.0001pt;
+2012-11-18 12:40:30.922 	font-size:11.0pt;
+2012-11-18 12:40:30.923 	font-family:"Calibri","sans-serif";
+2012-11-18 12:40:30.923 	mso-fareast-language:EN-US;}
+2012-11-18 12:40:30.924 a:link, span.MsoHyperlink
+2012-11-18 12:40:30.924 	{mso-style-priority:99;
+2012-11-18 12:40:30.925 	color:blue;
+2012-11-18 12:40:30.925 	text-decoration:underline;}
+2012-11-18 12:40:30.925 a:visited, span.MsoHyperlinkFollowed
+2012-11-18 12:40:30.926 	{mso-style-priority:99;
+2012-11-18 12:40:30.926 	color:purple;
+2012-11-18 12:40:30.927 	text-decoration:underline;}
+2012-11-18 12:40:30.928 span.E-MailFormatvorlage17
+2012-11-18 12:40:30.928 	{mso-style-type:personal-compose;
+2012-11-18 12:40:30.929 	font-family:"Calibri","sans-serif";
+2012-11-18 12:40:30.929 	color:windowtext;}
+2012-11-18 12:40:30.929 ..MsoChpDefault
+2012-11-18 12:40:30.93 	{mso-style-type:export-only;
+2012-11-18 12:40:30.93 	font-family:"Calibri","sans-serif";
+2012-11-18 12:40:30.93 	mso-fareast-language:EN-US;}
+2012-11-18 12:40:30.931 @page WordSection1
+2012-11-18 12:40:30.931 	{size:612.0pt 792.0pt;
+2012-11-18 12:40:30.932 	margin:70.85pt 70.85pt 2.0cm 70.85pt;}
+2012-11-18 12:40:30.932 div.WordSection1
+2012-11-18 12:40:30.933 	{page:WordSection1;}
+2012-11-18 12:40:30.933 --></style><!--[if gte mso 9]><xml>
+2012-11-18 12:40:30.933 <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+2012-11-18 12:40:30.934 </xml><![endif]--><!--[if gte mso 9]><xml>
+2012-11-18 12:40:30.935 <o:shapelayout v:ext=3D"edit">
+2012-11-18 12:40:30.935 <o:idmap v:ext=3D"edit" data=3D"1" />
+2012-11-18 12:40:30.936 </o:shapelayout></xml><![endif]--></head><body lang=3DDE link=3Dblue =
+2012-11-18 12:40:30.936 vlink=3Dpurple><div class=3DWordSection1><p =
+2012-11-18 12:40:30.936 class=3DMsoNormal>1111111111111111111111111<o:p></o:p></p><p =
+2012-11-18 12:40:30.937 class=3DMsoNormal>1111111111111111111111111<o:p></o:p></p><p =
+2012-11-18 12:40:30.937 class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+2012-11-18 12:40:30.937 class=3DMsoNormal>1111111111111111111111111<o:p></o:p></p><p =
+2012-11-18 12:40:30.938 class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+2012-11-18 12:40:30.938 class=3DMsoNormal>1111111111111111111111111<o:p></o:p></p><p =
+2012-11-18 12:40:30.939 class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+2012-11-18 12:40:30.94 class=3DMsoNormal>1111111111111111111111111<o:p></o:p></p><p =
+2012-11-18 12:40:30.94 class=3DMsoNormal>1111111111111111111111111<o:p></o:p></p><p =
+2012-11-18 12:40:30.94 class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+2012-11-18 12:40:30.941 class=3DMsoNormal>1111111111111111111111111<o:p></o:p></p><p =
+2012-11-18 12:40:30.941 class=3DMsoNormal>1111111111111111111111111<o:p></o:p></p><p =
+2012-11-18 12:40:30.942 class=3DMsoNormal>1111111111111111111111111<o:p></o:p></p><p =
+2012-11-18 12:40:30.942 class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body></html>
+2012-11-18 12:40:30.943 ------=_NextPart_000_006F_01CDC589.B0AE5960--
+2012-11-18 12:40:30.943 
+2012-11-18 12:40:30.944 .
+2012-11-18 12:40:30.944 TCP Client has sent the message: DELE 1
+2012-11-18 12:40:31.052 +OK
+2012-11-18 12:40:31.053 TCP Client has sent the message: QUIT
+2012-11-18 12:40:54.099 TCP Server Thread detected job: stat
+2012-11-18 12:40:54.101 TCP Server Thread 2 has written the message: +OK 1 <11469 octets>
+2012-11-18 12:41:11.101 +OK POP server ready H miweb102
+2012-11-18 12:41:11.102 +OK POP server ready H miweb102
+2012-11-18 12:41:11.103 TCP Client has sent the message: USER fhtestmailer@web.de
+2012-11-18 12:41:11.15 +OK password required for user "fhtestmailer@web.de"
+2012-11-18 12:41:11.151 TCP Client has sent the message: PASS fhtestmailer123
+2012-11-18 12:41:11.263 +OK mailbox "fhtestmailer@web.de" has 0 messages (0 octets) H miweb102
+2012-11-18 12:41:11.263 TCP Client has sent the message: STAT
+2012-11-18 12:41:11.35 +OK 0 0
+2012-11-18 12:41:11.351 TCP Client has sent the message: QUIT
+2012-11-18 12:41:11.399 +OK POP server ready H miweb104
+2012-11-18 12:41:11.4 +OK POP server ready H miweb104
+2012-11-18 12:41:11.401 TCP Client has sent the message: USER fhmailer@web.de
+2012-11-18 12:41:11.446 +OK password required for user "fhmailer@web.de"
+2012-11-18 12:41:11.446 TCP Client has sent the message: PASS fhmailer123
+2012-11-18 12:41:11.557 -ERR login only every 720 seconds allowed
+2012-11-18 12:41:11.558 TCP Client has sent the message: QUIT
+2012-11-18 12:41:16.363 TCP Server Thread detected job: quit
+2012-11-18 12:41:16.364 TCP Server Thread 2 has written the message: +OK POP3 Server singing off
+2012-11-18 12:41:30.841 TCP Server Thread 3 has written the message: +OK POP3 server ready
+2012-11-18 12:41:33.195 TCP Server Thread detected job: user mett
+2012-11-18 12:41:33.196 TCP Server Thread 3 has written the message: +OK password required for user 'mett'
+2012-11-18 12:41:34.923 TCP Server Thread detected job: pass mett
+2012-11-18 12:41:34.925 TCP Server Thread 3 has written the message: +OK mett has 1 massages <6020 octets>
+2012-11-18 12:41:51.607 +OK POP server ready H miweb106
+2012-11-18 12:41:51.608 +OK POP server ready H miweb106
+2012-11-18 12:41:51.608 TCP Client has sent the message: USER fhtestmailer@web.de
+2012-11-18 12:41:51.656 +OK password required for user "fhtestmailer@web.de"
+2012-11-18 12:41:51.657 TCP Client has sent the message: PASS fhtestmailer123
+2012-11-18 12:41:51.77 -ERR login only every 720 seconds allowed
+2012-11-18 12:41:51.77 TCP Client has sent the message: QUIT
+2012-11-18 12:41:51.838 +OK POP server ready H miweb101
+2012-11-18 12:41:51.838 +OK POP server ready H miweb101
+2012-11-18 12:41:51.838 TCP Client has sent the message: USER fhmailer@web.de
+2012-11-18 12:41:51.899 +OK password required for user "fhmailer@web.de"
+2012-11-18 12:41:51.9 TCP Client has sent the message: PASS fhmailer123
+2012-11-18 12:41:52.035 +OK mailbox "fhmailer@web.de" has 0 messages (0 octets) H miweb101
+2012-11-18 12:41:52.036 TCP Client has sent the message: STAT
+2012-11-18 12:41:52.136 +OK 0 0
+2012-11-18 12:41:52.137 TCP Client has sent the message: QUIT
+2012-11-18 12:50:27.808 TCP Server Thread detected job: stat
+2012-11-18 12:50:27.809 TCP Server Thread 3 has written the message: +OK 1 <6020 octets>
+2012-11-18 12:50:30.183 TCP Server Thread detected job: list
+2012-11-18 12:50:30.185 TCP Server Thread 3 has written the message: +OK 1 messages  <6020 octets>
+2012-11-18 12:50:30.186 TCP Server Thread 3 has written the message: 1 28
+2012-11-18 12:50:30.186 TCP Server Thread 3 has written the message: .
+2012-11-18 12:57:53.638 TCP Server Thread 1 has written the message: +OK POP3 server ready
+2012-11-18 12:57:56.012 TCP Server Thread detected job: user mett
+2012-11-18 12:57:56.013 TCP Server Thread 1 has written the message: +OK password required for user 'mett'
+2012-11-18 12:57:58.125 TCP Server Thread detected job: pass mett
+2012-11-18 12:57:58.126 TCP Server Thread 1 has written the message: +OK mett has 1 massages <6020 octets>
+2012-11-18 12:58:01.157 TCP Server Thread detected job: stat
+2012-11-18 12:58:01.158 TCP Server Thread 1 has written the message: +OK 1 <6020 octets>
+2012-11-18 12:58:04.196 TCP Server Thread detected job: list
+2012-11-18 12:58:04.198 TCP Server Thread 1 has written the message: +OK 1 messages  <6020 octets>
+2012-11-18 12:58:04.199 TCP Server Thread 1 has written the message: 1 6020
+2012-11-18 12:58:04.199 TCP Server Thread 1 has written the message: .
+2012-11-18 13:02:57.838 +OK POP server ready H miweb111
+2012-11-18 13:02:57.85 +OK POP server ready H miweb111
+2012-11-18 13:02:57.85 TCP Client has sent the message: USER fhtestmailer@web.de
+2012-11-18 13:02:57.912 +OK password required for user "fhtestmailer@web.de"
+2012-11-18 13:02:57.912 TCP Client has sent the message: PASS fhtestmailer123
+2012-11-18 13:02:58.039 +OK mailbox "fhtestmailer@web.de" has 0 messages (0 octets) H miweb111
+2012-11-18 13:02:58.04 TCP Client has sent the message: STAT
+2012-11-18 13:02:58.142 +OK 0 0
+2012-11-18 13:02:58.143 TCP Client has sent the message: QUIT
+2012-11-18 13:02:58.193 +OK POP server ready H miweb114
+2012-11-18 13:02:58.193 +OK POP server ready H miweb114
+2012-11-18 13:02:58.194 TCP Client has sent the message: USER fhmailer@web.de
+2012-11-18 13:02:58.242 +OK password required for user "fhmailer@web.de"
+2012-11-18 13:02:58.243 TCP Client has sent the message: PASS fhmailer123
+2012-11-18 13:02:58.355 +OK mailbox "fhmailer@web.de" has 1 messages (5195 octets) H miweb114
+2012-11-18 13:02:58.356 TCP Client has sent the message: STAT
+2012-11-18 13:02:58.442 +OK 1 5195
+2012-11-18 13:02:58.443 TCP Client has sent the message: UIDL 1
+2012-11-18 13:02:58.531 +OK 1 0MDzWt-1TVQK53yl5-00Gutu
+2012-11-18 13:02:58.532 TCP Client has sent the message: RETR 1
+2012-11-18 13:02:58.623 +OK
+2012-11-18 13:02:58.647 Return-Path: janlepel@aol.com
+2012-11-18 13:02:58.649 Received: from imr-ma06.mx.aol.com ([64.12.78.142]) by mx-ha.web.de (mxweb108)
+2012-11-18 13:02:58.65  with ESMTP (Nemesis) id 0MDzWt-1TVQK53yl5-00Gutu for <fhmailer@web.de>; Sun,
+2012-11-18 13:02:58.651  18 Nov 2012 12:51:31 +0100
+2012-11-18 13:02:58.652 Received: from mtaout-mb06.r1000.mx.aol.com (mtaout-mb06.r1000.mx.aol.com [172.29.41.70])
+2012-11-18 13:02:58.653 	by imr-ma06.mx.aol.com (8.14.1/8.14.1) with ESMTP id qAIBpSgN008568
+2012-11-18 13:02:58.654 	for <fhmailer@web.de>; Sun, 18 Nov 2012 06:51:28 -0500
+2012-11-18 13:02:58.655 Received: from DerDocPC (31-18-150-175-dynip.superkabel.de [31.18.150.175])
+2012-11-18 13:02:58.656 	(using TLSv1 with cipher AES128-SHA (128/128 bits))
+2012-11-18 13:02:58.657 	(No client certificate requested)
+2012-11-18 13:02:58.657 	by mtaout-mb06.r1000.mx.aol.com (MUA/Third Party Client Interface) with ESMTPSA id 33854E000097
+2012-11-18 13:02:58.658 	for <fhmailer@web.de>; Sun, 18 Nov 2012 06:51:28 -0500 (EST)
+2012-11-18 13:02:58.659 From: "Jan Lepel" <janlepel@aol.com>
+2012-11-18 13:02:58.66 To: <fhmailer@web.de>
+2012-11-18 13:02:58.661 Subject: 222222222
+2012-11-18 13:02:58.662 Date: Sun, 18 Nov 2012 12:51:33 +0100
+2012-11-18 13:02:58.663 Message-ID: <007601cdc583$10656300$31302900$@aol.com>
+2012-11-18 13:02:58.663 MIME-Version: 1.0
+2012-11-18 13:02:58.664 Content-Type: multipart/alternative;
+2012-11-18 13:02:58.665 	boundary="----=_NextPart_000_0077_01CDC58B.722A1920"
+2012-11-18 13:02:58.666 X-Mailer: Microsoft Outlook 14.0
+2012-11-18 13:02:58.667 Thread-Index: Ac3FgwzSamlNjz+KTMWgrj+95KwJyw==
+2012-11-18 13:02:58.668 Content-Language: de
+2012-11-18 13:02:58.669 x-aol-global-disposition: G
+2012-11-18 13:02:58.669 DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mx.aol.com;
+2012-11-18 13:02:58.67 	s=20110426; t=1353239488;
+2012-11-18 13:02:58.671 	bh=GTq8nxwb68HZQdqfKdLo9GnpRKdD2I9Qhiefio5cg5I=;
+2012-11-18 13:02:58.672 	h=From:To:Subject:Message-ID:Date:MIME-Version:Content-Type;
+2012-11-18 13:02:58.673 	b=dId3Wi6enMns+YvHuvhH9z0vFmz4gAcbnmDsouKpKl8jiLhHMLkxuovGtqKC/JLH4
+2012-11-18 13:02:58.674 	 HcREzv1in8o/tIQtcn+BfRJtPEySiCRnXFt2hdeFW154p1UKmFxJ4xgtdfKvOa6gUH
+2012-11-18 13:02:58.674 	 Ms3fKvV9V0vbxFVwRNZ1G+E7+oMS2CKv5J3UtVBY=
+2012-11-18 13:02:58.675 X-AOL-SCOLL-SCORE: 0:5:56714352:93952408  
+2012-11-18 13:02:58.676 X-AOL-SCOLL-URL_COUNT: 0  
+2012-11-18 13:02:58.677 x-aol-sid: 3039ac1d294650a8cbbe41c4
+2012-11-18 13:02:58.678 X-AOL-IP: 31.18.150.175
+2012-11-18 13:02:58.678 Envelope-To: <fhmailer@web.de>
+2012-11-18 13:02:58.679 X-UI-Filterresults: ;V01:K0:RgPI6uTx:LOW0lkFyjlGfzHPpSHr72tTAxq5EwOHiOjI
+2012-11-18 13:02:58.68  5bJHK6a82WsWOYGLI49n83sHrBFM07aGp1EB4p5Go6/Qp/NTTpA73QBNiWhJ76+oPgj3qNk
+2012-11-18 13:02:58.681  gCMgav82NcgI8lgAy1x/DvLfqs/CiWwCbMcqLQhs74TXt/QV9P9JfqHyKW3nax+Kftgxft/
+2012-11-18 13:02:58.682  ZdyffXmOuH2//viFkqZCWqCaldAIdPKLGxVdiLzxWVkO1/1BdNUhugtc6Iib8mkwz5l36Fr
+2012-11-18 13:02:58.683  xFeDu3Yj/fJQoeTFASMR0JQBozKBr044E84yslvSGYETAH63y3KCGGFb5+lhSI9z7SIJtGK
+2012-11-18 13:02:58.683  a6sSHfBbuMsS8JLZboGzuExSJTF9ZaV9KGU8Nrlj7nfkuLfJMKJrGmiaOPil3qHIcMIg688
+2012-11-18 13:02:58.684  7Wo47QC1Ocfmo/cj+UxHKxk6lKklfJwUsHwWC2zdDfELfucnL9uz2dd4T8GjrF1Ifd9i6jb
+2012-11-18 13:02:58.685  +1WWP/XFnFIyhKzWX8/MKhM9y5KcfTnH5VuNgPGW034E90J7rUtbeSPtyL21/wAdJhIDjoW
+2012-11-18 13:02:58.686  ymhUP11nlsprmygxWG5KcbV2LHUgYiwxtCrRLW8k2triFy2789cHIji90VKJESWOIBuQt7K
+2012-11-18 13:02:58.687  lY2HedZdySRBuC3PJxoDELor7MlHKALX9N/G9S9hxoqQv+VN1PXDAptPrUyKG49nYx6Cozr
+2012-11-18 13:02:58.688  /HLO+7NBkZne62LvGF0gwwZk4CYa5QQeufNeH1qf4gu46MMdJwPIWsncgNIWlmYP3e4wc8V
+2012-11-18 13:02:58.689  whF6sbaPDCtI7YjmofR5wpZi3OcdCVfQcPqIjodeVeK0nxjj/hprEu+2iWtHGTbw+jk0bNc
+2012-11-18 13:02:58.69  x+dB6dfNyyjZFdH/+yKOiTJ9MzI6VPY48QNi4UuP3MPVbherk5GPx260WSE2i029um0p/sw
+2012-11-18 13:02:58.69  gXOTvlKMEKw7CcYCvM4+2NcXYoASpKqLvZgPKoRJW0AhZvzsuwBb4eG7A/mGHT/Ig/OwGEC
+2012-11-18 13:02:58.691  +iJLewCmECpS1p3og4KNmubL0fMvAEznqvBaeNz6kSUHOjp/6mCiWSkoT25Jw1jtv0avwy4
+2012-11-18 13:02:58.692  cKBkDDqkgr08IKy35aJYyPwqnFU9FfOptrCux1DvVLvO0oLzqUNMHctLRIPYxEjkunke5O9
+2012-11-18 13:02:58.693  cKbu2GIO2E8MQ/tCJtp+3hGV9hQ0er5s4ouTdWS0ouQ0n0ui/nirQRXOxaMpHlh1FowhZrK
+2012-11-18 13:02:58.694  RJg==
+2012-11-18 13:02:58.695 
+2012-11-18 13:02:58.695 This is a multipart message in MIME format.
+2012-11-18 13:02:58.696 
+2012-11-18 13:02:58.696 ------=_NextPart_000_0077_01CDC58B.722A1920
+2012-11-18 13:02:58.697 Content-Type: text/plain;
+2012-11-18 13:02:58.697 	charset="US-ASCII"
+2012-11-18 13:02:58.698 Content-Transfer-Encoding: 7bit
+2012-11-18 13:02:58.698 
+2012-11-18 13:02:58.698 2222222222222222222222222
+2012-11-18 13:02:58.699 
+2012-11-18 13:02:58.699 
+2012-11-18 13:02:58.699 ------=_NextPart_000_0077_01CDC58B.722A1920
+2012-11-18 13:02:58.7 Content-Type: text/html;
+2012-11-18 13:02:58.7 	charset="US-ASCII"
+2012-11-18 13:02:58.701 Content-Transfer-Encoding: quoted-printable
+2012-11-18 13:02:58.701 
+2012-11-18 13:02:58.701 <html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+2012-11-18 13:02:58.702 xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+2012-11-18 13:02:58.702 xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+2012-11-18 13:02:58.703 xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+2012-11-18 13:02:58.703 xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+2012-11-18 13:02:58.703 HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+2012-11-18 13:02:58.704 charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 14 =
+2012-11-18 13:02:58.704 (filtered medium)"><style><!--
+2012-11-18 13:02:58.705 /* Font Definitions */
+2012-11-18 13:02:58.705 @font-face
+2012-11-18 13:02:58.705 	{font-family:"Cambria Math";
+2012-11-18 13:02:58.706 	panose-1:2 4 5 3 5 4 6 3 2 4;}
+2012-11-18 13:02:58.706 @font-face
+2012-11-18 13:02:58.707 	{font-family:Calibri;
+2012-11-18 13:02:58.707 	panose-1:2 15 5 2 2 2 4 3 2 4;}
+2012-11-18 13:02:58.707 /* Style Definitions */
+2012-11-18 13:02:58.708 p.MsoNormal, li.MsoNormal, div.MsoNormal
+2012-11-18 13:02:58.708 	{margin:0cm;
+2012-11-18 13:02:58.709 	margin-bottom:.0001pt;
+2012-11-18 13:02:58.709 	font-size:11.0pt;
+2012-11-18 13:02:58.709 	font-family:"Calibri","sans-serif";
+2012-11-18 13:02:58.71 	mso-fareast-language:EN-US;}
+2012-11-18 13:02:58.71 a:link, span.MsoHyperlink
+2012-11-18 13:02:58.711 	{mso-style-priority:99;
+2012-11-18 13:02:58.711 	color:blue;
+2012-11-18 13:02:58.711 	text-decoration:underline;}
+2012-11-18 13:02:58.712 a:visited, span.MsoHyperlinkFollowed
+2012-11-18 13:02:58.712 	{mso-style-priority:99;
+2012-11-18 13:02:58.713 	color:purple;
+2012-11-18 13:02:58.713 	text-decoration:underline;}
+2012-11-18 13:02:58.713 span.E-MailFormatvorlage17
+2012-11-18 13:02:58.714 	{mso-style-type:personal-compose;
+2012-11-18 13:02:58.714 	font-family:"Calibri","sans-serif";
+2012-11-18 13:02:58.715 	color:windowtext;}
+2012-11-18 13:02:58.715 ..MsoChpDefault
+2012-11-18 13:02:58.716 	{mso-style-type:export-only;
+2012-11-18 13:02:58.716 	font-family:"Calibri","sans-serif";
+2012-11-18 13:02:58.716 	mso-fareast-language:EN-US;}
+2012-11-18 13:02:58.717 @page WordSection1
+2012-11-18 13:02:58.717 	{size:612.0pt 792.0pt;
+2012-11-18 13:02:58.717 	margin:70.85pt 70.85pt 2.0cm 70.85pt;}
+2012-11-18 13:02:58.718 div.WordSection1
+2012-11-18 13:02:58.718 	{page:WordSection1;}
+2012-11-18 13:02:58.719 --></style><!--[if gte mso 9]><xml>
+2012-11-18 13:02:58.719 <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+2012-11-18 13:02:58.72 </xml><![endif]--><!--[if gte mso 9]><xml>
+2012-11-18 13:02:58.72 <o:shapelayout v:ext=3D"edit">
+2012-11-18 13:02:58.72 <o:idmap v:ext=3D"edit" data=3D"1" />
+2012-11-18 13:02:58.721 </o:shapelayout></xml><![endif]--></head><body lang=3DDE link=3Dblue =
+2012-11-18 13:02:58.721 vlink=3Dpurple><div class=3DWordSection1><p =
+2012-11-18 13:02:58.722 class=3DMsoNormal>2222222222222222222222222<o:p></o:p></p></div></body></=
+2012-11-18 13:02:58.722 html>
+2012-11-18 13:02:58.722 ------=_NextPart_000_0077_01CDC58B.722A1920--
+2012-11-18 13:02:58.723 
+2012-11-18 13:02:58.723 .
+2012-11-18 13:02:58.723 TCP Client has sent the message: DELE 1
+2012-11-18 13:02:58.814 +OK
+2012-11-18 13:02:58.815 TCP Client has sent the message: QUIT
+2012-11-18 13:03:38.876 +OK POP server ready H miweb115
+2012-11-18 13:03:38.877 +OK POP server ready H miweb115
+2012-11-18 13:03:38.878 TCP Client has sent the message: USER fhtestmailer@web.de
+2012-11-18 13:03:38.937 +OK password required for user "fhtestmailer@web.de"
+2012-11-18 13:03:38.938 TCP Client has sent the message: PASS fhtestmailer123
+2012-11-18 13:03:39.073 -ERR login only every 720 seconds allowed
+2012-11-18 13:03:39.073 TCP Client has sent the message: QUIT
+2012-11-18 13:03:39.124 +OK POP server ready H miweb107
+2012-11-18 13:03:39.125 +OK POP server ready H miweb107
+2012-11-18 13:03:39.125 TCP Client has sent the message: USER fhmailer@web.de
+2012-11-18 13:03:39.175 +OK password required for user "fhmailer@web.de"
+2012-11-18 13:03:39.176 TCP Client has sent the message: PASS fhmailer123
+2012-11-18 13:03:39.29 -ERR login only every 720 seconds allowed
+2012-11-18 13:03:39.291 TCP Client has sent the message: QUIT
+2012-11-18 13:04:02.161 TCP Server Thread 1 has written the message: +OK POP3 server ready
+2012-11-18 13:04:02.174 TCP Server Thread detected job: AUTH
+2012-11-18 13:04:02.175 TCP Server Thread 1 has written the message: -ERR no valid command
+2012-11-18 13:04:02.182 TCP Server Thread detected job: CAPA
+2012-11-18 13:04:02.182 TCP Server Thread 1 has written the message: -ERR no valid command
+2012-11-18 13:04:02.189 TCP Server Thread detected job: USER mett@bla.de
+2012-11-18 13:04:02.189 TCP Server Thread 1 has written the message: -ERR unknown user
+2012-11-18 13:04:07.779 TCP Server Thread detected job: null
+2012-11-18 13:04:20.883 TCP Server Thread 2 has written the message: +OK POP3 server ready
+2012-11-18 13:04:20.884 TCP Server Thread detected job: CAPA
+2012-11-18 13:04:20.885 TCP Server Thread 2 has written the message: -ERR no valid command
+2012-11-18 13:04:20.885 TCP Server Thread detected job: USER mett@bla.de
+2012-11-18 13:04:20.886 TCP Server Thread 2 has written the message: -ERR unknown user
+2012-11-18 13:04:22.058 TCP Server Thread detected job: null
+2012-11-18 13:04:48.994 TCP Server Thread 1 has written the message: +OK POP3 server ready
+2012-11-18 13:04:49.006 TCP Server Thread detected job: CAPA
+2012-11-18 13:04:49.007 TCP Server Thread 1 has written the message: -ERR no valid command
+2012-11-18 13:04:49.007 TCP Server Thread detected job: USER mett@bla.de
+2012-11-18 13:04:49.008 TCP Server Thread 1 has written the message: +OK password required for user 'mett@bla.de'
+2012-11-18 13:04:49.008 TCP Server Thread detected job: PASS mett
+2012-11-18 13:04:49.009 TCP Server Thread 1 has written the message: +OK mett@bla.de has 2 massages <11094 octets>
+2012-11-18 13:04:49.009 TCP Server Thread detected job: STAT
+2012-11-18 13:04:49.01 TCP Server Thread 1 has written the message: +OK 2 <11094 octets>
+2012-11-18 13:04:49.011 TCP Server Thread detected job: LIST
+2012-11-18 13:04:49.012 TCP Server Thread 1 has written the message: +OK 2 messages  <11094 octets>
+2012-11-18 13:04:49.012 TCP Server Thread 1 has written the message: 1 11094
+2012-11-18 13:04:49.013 TCP Server Thread 1 has written the message: 2 11094
+2012-11-18 13:04:49.013 TCP Server Thread 1 has written the message: .
+2012-11-18 13:04:49.014 TCP Server Thread detected job: UIDL
+2012-11-18 13:04:49.014 TCP Server Thread 1 has written the message: +OK
+2012-11-18 13:04:49.014 TCP Server Thread 1 has written the message: 10MaHgO-1TpN8Z1Riy-00KGHF.txt
+2012-11-18 13:04:49.015 TCP Server Thread 1 has written the message: 20MDzWt-1TVQK53yl5-00Gutu.txt
+2012-11-18 13:04:49.015 TCP Server Thread 1 has written the message: .
+2012-11-18 13:04:49.02 TCP Server Thread detected job: RETR 1
+2012-11-18 13:04:49.02 TCP Server Thread 1 has written the message: +OK
+2012-11-18 13:04:49.061 TCP Server Thread detected job: DELE 1
+2012-11-18 13:04:49.062 TCP Server Thread 1 has written the message: +OK message 1 deleted
+2012-11-18 13:04:49.062 TCP Server Thread detected job: RETR 2
+2012-11-18 13:04:49.062 TCP Server Thread 1 has written the message: +OK
+2012-11-18 13:04:49.092 TCP Server Thread detected job: DELE 2
+2012-11-18 13:04:49.093 TCP Server Thread 1 has written the message: +OK message 2 deleted
+2012-11-18 13:04:49.104 TCP Server Thread detected job: QUIT
+2012-11-18 13:04:49.104 TCP Server Thread 1 has written the message: +OK POP3 Server singing off
+2012-11-18 13:05:40.009 +OK POP server ready H miweb108
+2012-11-18 13:05:40.02 +OK POP server ready H miweb108
+2012-11-18 13:05:40.021 TCP Client has sent the message: USER fhtestmailer@web.de
+2012-11-18 13:05:40.067 +OK password required for user "fhtestmailer@web.de"
+2012-11-18 13:05:40.068 TCP Client has sent the message: PASS fhtestmailer123
+2012-11-18 13:05:40.188 +OK mailbox "fhtestmailer@web.de" has 1 messages (5408 octets) H miweb108
+2012-11-18 13:05:40.189 TCP Client has sent the message: STAT
+2012-11-18 13:05:40.276 +OK 1 5408
+2012-11-18 13:05:40.277 TCP Client has sent the message: UIDL 1
+2012-11-18 13:05:40.361 +OK 1 0LaVlX-1SrfRj0wz1-00mCj7
+2012-11-18 13:05:40.362 TCP Client has sent the message: RETR 1
+2012-11-18 13:05:40.45 +OK
+2012-11-18 13:05:40.475 Return-Path: janlepel@aol.com
+2012-11-18 13:05:40.477 Received: from imr-ma02.mx.aol.com ([64.12.206.40]) by mx-ha.web.de (mxweb005)
+2012-11-18 13:05:40.478  with ESMTP (Nemesis) id 0LaVlX-1SrfRj0wz1-00mCj7 for <fhtestmailer@web.de>;
+2012-11-18 13:05:40.478  Sun, 18 Nov 2012 13:05:16 +0100
+2012-11-18 13:05:40.479 Received: from mtaout-db04.r1000.mx.aol.com (mtaout-db04.r1000.mx.aol.com [172.29.51.196])
+2012-11-18 13:05:40.48 	by imr-ma02.mx.aol.com (Outbound Mail Relay) with ESMTP id A5A221C000088
+2012-11-18 13:05:40.481 	for <fhtestmailer@web.de>; Sun, 18 Nov 2012 07:05:15 -0500 (EST)
+2012-11-18 13:05:40.482 Received: from DerDocPC (31-18-150-175-dynip.superkabel.de [31.18.150.175])
+2012-11-18 13:05:40.483 	(using TLSv1 with cipher AES128-SHA (128/128 bits))
+2012-11-18 13:05:40.484 	(No client certificate requested)
+2012-11-18 13:05:40.484 	by mtaout-db04.r1000.mx.aol.com (MUA/Third Party Client Interface) with ESMTPSA id 18A5CE000092
+2012-11-18 13:05:40.485 	for <fhtestmailer@web.de>; Sun, 18 Nov 2012 07:05:14 -0500 (EST)
+2012-11-18 13:05:40.486 From: "Jan Lepel" <janlepel@aol.com>
+2012-11-18 13:05:40.487 To: <fhtestmailer@web.de>
+2012-11-18 13:05:40.488 Subject: 9999999999999999999999999
+2012-11-18 13:05:40.489 Date: Sun, 18 Nov 2012 13:05:22 +0100
+2012-11-18 13:05:40.49 Message-ID: <008001cdc584$fd42a290$f7c7e7b0$@aol.com>
+2012-11-18 13:05:40.49 MIME-Version: 1.0
+2012-11-18 13:05:40.491 Content-Type: multipart/alternative;
+2012-11-18 13:05:40.492 	boundary="----=_NextPart_000_0081_01CDC58D.5F077FC0"
+2012-11-18 13:05:40.493 X-Mailer: Microsoft Outlook 14.0
+2012-11-18 13:05:40.494 Thread-Index: Ac3FhPwNxXP/2XMeRsOOyMzLktJA4w==
+2012-11-18 13:05:40.495 Content-Language: de
+2012-11-18 13:05:40.496 x-aol-global-disposition: G
+2012-11-18 13:05:40.496 DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mx.aol.com;
+2012-11-18 13:05:40.497 	s=20110426; t=1353240315;
+2012-11-18 13:05:40.498 	bh=17Vvh+oHWzNT27rG2hKhi+wY+hk8a1E6XOMW+zYxE6Y=;
+2012-11-18 13:05:40.499 	h=From:To:Subject:Message-ID:Date:MIME-Version:Content-Type;
+2012-11-18 13:05:40.5 	b=XNKy+OAAkQqsIVzQA3rgETmUywXwItjPx3extJfHfn06Nf4ru0Mlk0lf5aruOCqzN
+2012-11-18 13:05:40.501 	 r8b2/XrfsMzScdXB80XKLX4of768o7zStHL37IbH9iQ66tk5LWd/zKQrlLOmpEJSqu
+2012-11-18 13:05:40.501 	 8wQZEcWR1SrpVSJUp5xYHr9VvTiqCN/sr3tLphQ8=
+2012-11-18 13:05:40.502 X-AOL-SCOLL-SCORE: 0:2:99199752:93952408  
+2012-11-18 13:05:40.503 X-AOL-SCOLL-URL_COUNT: 0  
+2012-11-18 13:05:40.504 x-aol-sid: 3039ac1d33c450a8cefa0851
+2012-11-18 13:05:40.505 X-AOL-IP: 31.18.150.175
+2012-11-18 13:05:40.506 Envelope-To: <fhtestmailer@web.de>
+2012-11-18 13:05:40.506 X-UI-Filterresults: ;V01:K0:dDsAPEz1:l+Dv9RF3ufz3wBBHuBBACXcWQKVnMo0FYu1
+2012-11-18 13:05:40.507  YXHKX1ZHtjto3Nv6oexhHv3+FKy8zK+fxOa7lVM6A2PvbQqVxonJerH5fp7+k+6CDYNKlHh
+2012-11-18 13:05:40.508  9v0kr3K8UCt22h3jxrnZUvy5NBWtie2XRCVE/TBaUKqD1mFKqIlnPXPmeA33c5yNdfXubmt
+2012-11-18 13:05:40.509  a0prM/nOu2l3ye2uIBZQWk6giesDc+yu0fGh9LvRcJ0kkctHSsBfb6PGVb/1hv8S8Jugpep
+2012-11-18 13:05:40.51  FY8mDne+FPn7MEsyL4E42LI+gs9C0QTduqxT0jFuOkRYZE3McxVcI16SM/BTXWKMLBVDCMT
+2012-11-18 13:05:40.51  fYqcENTiwaisQEqDM3cXZQXtkQtzchSEvZ9h/Xt7iXLPbnNd4ZCdjFSbUSJthhfp4THKxY6
+2012-11-18 13:05:40.511  2sUF7BoNhOWdnId5T4aPWtCKR7eSfsaKhI48gO6cU+3709hhZv0WChHKRtclkN8YyaTJwXQ
+2012-11-18 13:05:40.512  0ldxjiNtA1+7ElM+Q+1V3S9t1FEHAT3Os/P3z971UUGLlH2nhSabttCXQ1rNhyGxyQNFe3K
+2012-11-18 13:05:40.513  5cMIDNzSpLmIrOxAOEhIZIDoh4PYlt5izO4vxpWJMs4BT94hor+Ud/yce+Z3lE2Pa9/vgo8
+2012-11-18 13:05:40.514  ZaqwbzpXeJkTQOyzDBw9NNuxUynV//VRKULJIvLkCOs2kSQ0WS03+hOQnFrhJO2EpmVqLp1
+2012-11-18 13:05:40.515  sH9uLOM5LjzOFmrNVVClh1k5WSNCnEasAbEQwZ2I9rwqWzJz1W3q0oOJc4RSIYcTILsZC9k
+2012-11-18 13:05:40.515  zOc9e2TdW8JOA+oR4oO/Ew+AQXAWsC/NP3NE+iO2nWNiYp3DZ2NO5YoKizGBys16p3ictiP
+2012-11-18 13:05:40.516  0N6CzYP57hc8CSdgfb2EPWJHzoeyKd8uz7VXdz+mA3nyrnc+NqBBpRlKiCC7Esd9DywdNGq
+2012-11-18 13:05:40.516  Gr6UjIONuEkWvJxfM9EEuRkrFxwtnXTNK4YDXlBV2LJ9UcDQWyUmqOJVLqPz6i9JC/Xj7SF
+2012-11-18 13:05:40.517  QC5bXDL3gv092iAFZndYbvzt4pvHkjpcTGLncxA3ivRzVE9e5N0hb7R+EJdOJNvtdwDNkg4
+2012-11-18 13:05:40.517  d2CmaQ3AZhXAlB3AIe0Ds7YRf2+DCDowmP+H2Ki3xjKVR8XoF9IlAmXW/rcF47C3KBiZk+r
+2012-11-18 13:05:40.518  X0V+OxnlZs37nWtNOtwOwitgHzWfG5LZsfd1eRiUhH2dQp63/ZpeYjYKKXIbWvyYqZ8oLV8
+2012-11-18 13:05:40.518  6KA==
+2012-11-18 13:05:40.518 
+2012-11-18 13:05:40.519 This is a multipart message in MIME format.
+2012-11-18 13:05:40.519 
+2012-11-18 13:05:40.519 ------=_NextPart_000_0081_01CDC58D.5F077FC0
+2012-11-18 13:05:40.52 Content-Type: text/plain;
+2012-11-18 13:05:40.52 	charset="US-ASCII"
+2012-11-18 13:05:40.52 Content-Transfer-Encoding: 7bit
+2012-11-18 13:05:40.521 
+2012-11-18 13:05:40.521 ..
+2012-11-18 13:05:40.522 
+2012-11-18 13:05:40.522 ...
+2012-11-18 13:05:40.522 
+2012-11-18 13:05:40.523 ....
+2012-11-18 13:05:40.523 
+2012-11-18 13:05:40.523 .....
+2012-11-18 13:05:40.524 
+2012-11-18 13:05:40.524 Loki ist toll
+2012-11-18 13:05:40.525 
+2012-11-18 13:05:40.525 
+2012-11-18 13:05:40.525 ------=_NextPart_000_0081_01CDC58D.5F077FC0
+2012-11-18 13:05:40.526 Content-Type: text/html;
+2012-11-18 13:05:40.526 	charset="US-ASCII"
+2012-11-18 13:05:40.526 Content-Transfer-Encoding: quoted-printable
+2012-11-18 13:05:40.527 
+2012-11-18 13:05:40.527 <html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+2012-11-18 13:05:40.527 xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+2012-11-18 13:05:40.528 xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+2012-11-18 13:05:40.528 xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+2012-11-18 13:05:40.529 xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+2012-11-18 13:05:40.529 HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+2012-11-18 13:05:40.529 charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 14 =
+2012-11-18 13:05:40.53 (filtered medium)"><style><!--
+2012-11-18 13:05:40.53 /* Font Definitions */
+2012-11-18 13:05:40.53 @font-face
+2012-11-18 13:05:40.531 	{font-family:"Cambria Math";
+2012-11-18 13:05:40.531 	panose-1:2 4 5 3 5 4 6 3 2 4;}
+2012-11-18 13:05:40.531 @font-face
+2012-11-18 13:05:40.532 	{font-family:Calibri;
+2012-11-18 13:05:40.532 	panose-1:2 15 5 2 2 2 4 3 2 4;}
+2012-11-18 13:05:40.533 /* Style Definitions */
+2012-11-18 13:05:40.533 p.MsoNormal, li.MsoNormal, div.MsoNormal
+2012-11-18 13:05:40.533 	{margin:0cm;
+2012-11-18 13:05:40.534 	margin-bottom:.0001pt;
+2012-11-18 13:05:40.534 	font-size:11.0pt;
+2012-11-18 13:05:40.534 	font-family:"Calibri","sans-serif";
+2012-11-18 13:05:40.535 	mso-fareast-language:EN-US;}
+2012-11-18 13:05:40.535 a:link, span.MsoHyperlink
+2012-11-18 13:05:40.535 	{mso-style-priority:99;
+2012-11-18 13:05:40.536 	color:blue;
+2012-11-18 13:05:40.536 	text-decoration:underline;}
+2012-11-18 13:05:40.536 a:visited, span.MsoHyperlinkFollowed
+2012-11-18 13:05:40.537 	{mso-style-priority:99;
+2012-11-18 13:05:40.537 	color:purple;
+2012-11-18 13:05:40.537 	text-decoration:underline;}
+2012-11-18 13:05:40.538 span.E-MailFormatvorlage17
+2012-11-18 13:05:40.538 	{mso-style-type:personal-compose;
+2012-11-18 13:05:40.539 	font-family:"Calibri","sans-serif";
+2012-11-18 13:05:40.539 	color:windowtext;}
+2012-11-18 13:05:40.539 ..MsoChpDefault
+2012-11-18 13:05:40.54 	{mso-style-type:export-only;
+2012-11-18 13:05:40.54 	font-family:"Calibri","sans-serif";
+2012-11-18 13:05:40.54 	mso-fareast-language:EN-US;}
+2012-11-18 13:05:40.541 @page WordSection1
+2012-11-18 13:05:40.541 	{size:612.0pt 792.0pt;
+2012-11-18 13:05:40.542 	margin:70.85pt 70.85pt 2.0cm 70.85pt;}
+2012-11-18 13:05:40.542 div.WordSection1
+2012-11-18 13:05:40.542 	{page:WordSection1;}
+2012-11-18 13:05:40.543 --></style><!--[if gte mso 9]><xml>
+2012-11-18 13:05:40.543 <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+2012-11-18 13:05:40.544 </xml><![endif]--><!--[if gte mso 9]><xml>
+2012-11-18 13:05:40.544 <o:shapelayout v:ext=3D"edit">
+2012-11-18 13:05:40.544 <o:idmap v:ext=3D"edit" data=3D"1" />
+2012-11-18 13:05:40.545 </o:shapelayout></xml><![endif]--></head><body lang=3DDE link=3Dblue =
+2012-11-18 13:05:40.545 vlink=3Dpurple><div class=3DWordSection1><p =
+2012-11-18 13:05:40.545 class=3DMsoNormal>.<o:p></o:p></p><p =
+2012-11-18 13:05:40.546 class=3DMsoNormal>..<o:p></o:p></p><p =
+2012-11-18 13:05:40.546 class=3DMsoNormal>...<o:p></o:p></p><p =
+2012-11-18 13:05:40.546 class=3DMsoNormal>....<o:p></o:p></p><p class=3DMsoNormal>Loki ist =
+2012-11-18 13:05:40.547 toll<o:p></o:p></p></div></body></html>
+2012-11-18 13:05:40.547 ------=_NextPart_000_0081_01CDC58D.5F077FC0--
+2012-11-18 13:05:40.548 
+2012-11-18 13:05:40.548 .
+2012-11-18 13:05:40.548 TCP Client has sent the message: DELE 1
+2012-11-18 13:05:40.636 +OK
+2012-11-18 13:05:40.637 TCP Client has sent the message: QUIT
+2012-11-18 13:05:40.703 +OK POP server ready H miweb113
+2012-11-18 13:05:40.704 +OK POP server ready H miweb113
+2012-11-18 13:05:40.704 TCP Client has sent the message: USER fhmailer@web.de
+2012-11-18 13:05:40.766 +OK password required for user "fhmailer@web.de"
+2012-11-18 13:05:40.767 TCP Client has sent the message: PASS fhmailer123
+2012-11-18 13:05:40.896 +OK mailbox "fhmailer@web.de" has 2 messages (10823 octets) H miweb113
+2012-11-18 13:05:40.896 TCP Client has sent the message: STAT
+2012-11-18 13:05:40.994 +OK 2 10823
+2012-11-18 13:05:40.995 TCP Client has sent the message: UIDL 1
+2012-11-18 13:05:41.094 +OK 1 0LtHUN-1T86Ol2Dmd-012smz
+2012-11-18 13:05:41.095 TCP Client has sent the message: RETR 1
+2012-11-18 13:05:41.194 +OK
+2012-11-18 13:05:41.225 Return-Path: janlepel@aol.com
+2012-11-18 13:05:41.226 Received: from imr-da04.mx.aol.com ([205.188.105.146]) by mx-ha.web.de
+2012-11-18 13:05:41.227  (mxweb104) with ESMTP (Nemesis) id 0LtHUN-1T86Ol2Dmd-012smz for
+2012-11-18 13:05:41.228  <fhmailer@web.de>; Sun, 18 Nov 2012 13:02:52 +0100
+2012-11-18 13:05:41.229 Received: from mtaout-ma02.r1000.mx.aol.com (mtaout-ma02.r1000.mx.aol.com [172.29.41.2])
+2012-11-18 13:05:41.23 	by imr-da04.mx.aol.com (8.14.1/8.14.1) with ESMTP id qAIC2hti013959
+2012-11-18 13:05:41.231 	for <fhmailer@web.de>; Sun, 18 Nov 2012 07:02:43 -0500
+2012-11-18 13:05:41.231 Received: from DerDocPC (31-18-150-175-dynip.superkabel.de [31.18.150.175])
+2012-11-18 13:05:41.232 	(using TLSv1 with cipher AES128-SHA (128/128 bits))
+2012-11-18 13:05:41.233 	(No client certificate requested)
+2012-11-18 13:05:41.234 	by mtaout-ma02.r1000.mx.aol.com (MUA/Third Party Client Interface) with ESMTPSA id 811CFE000083
+2012-11-18 13:05:41.235 	for <fhmailer@web.de>; Sun, 18 Nov 2012 07:02:42 -0500 (EST)
+2012-11-18 13:05:41.236 From: "Jan Lepel" <janlepel@aol.com>
+2012-11-18 13:05:41.237 To: <fhmailer@web.de>
+2012-11-18 13:05:41.237 Subject: 1111111111111111222222222222222
+2012-11-18 13:05:41.238 Date: Sun, 18 Nov 2012 13:02:49 +0100
+2012-11-18 13:05:41.239 Message-ID: <007b01cdc584$a25189a0$e6f49ce0$@aol.com>
+2012-11-18 13:05:41.24 MIME-Version: 1.0
+2012-11-18 13:05:41.24 Content-Type: multipart/alternative;
+2012-11-18 13:05:41.241 	boundary="----=_NextPart_000_007C_01CDC58D.04168DE0"
+2012-11-18 13:05:41.242 X-Mailer: Microsoft Outlook 14.0
+2012-11-18 13:05:41.242 Thread-Index: Ac3FhJ7FNhSzmvLzQ66dWqJ5fykTqA==
+2012-11-18 13:05:41.243 Content-Language: de
+2012-11-18 13:05:41.244 x-aol-global-disposition: G
+2012-11-18 13:05:41.245 DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mx.aol.com;
+2012-11-18 13:05:41.245 	s=20110426; t=1353240163;
+2012-11-18 13:05:41.246 	bh=V+sXScAmyEFRrEaucgEvnB+rscmpst1zS3KAaXbpMx0=;
+2012-11-18 13:05:41.247 	h=From:To:Subject:Message-ID:Date:MIME-Version:Content-Type;
+2012-11-18 13:05:41.247 	b=sbQfB9bo2+aOl7iRWLalIw+5V9qxL7H0yWiD0p9ny+e6urmJ4U26cVVdsqgG/XUTd
+2012-11-18 13:05:41.248 	 Dy78s8F+qXHbi2g6cr+uZAvZygrU50z47aG8ybcemXfJCaCeSVTj45OwCVvlPRMs63
+2012-11-18 13:05:41.249 	 TLf6Mf+8APV1y5SqYjN4G9z1XGnlx3DYV2B0E5D0=
+2012-11-18 13:05:41.25 X-AOL-SCOLL-SCORE: 0:2:103179488:93952408  
+2012-11-18 13:05:41.251 X-AOL-SCOLL-URL_COUNT: 0  
+2012-11-18 13:05:41.251 x-aol-sid: 3039ac1d290250a8ce6207e1
+2012-11-18 13:05:41.252 X-AOL-IP: 31.18.150.175
+2012-11-18 13:05:41.253 Envelope-To: <fhmailer@web.de>
+2012-11-18 13:05:41.254 X-UI-Filterresults: ;V01:K0:TQS4U/h1:ZRo5uukyjfQiMgBq2LRBbRdmwgXxFasISzm
+2012-11-18 13:05:41.255  R0J15IMuwHPCC5LBA059r9YZYqV+OEmQRGL4+4XZxq1VJT6rkkhYPHrWaNnjnFd7/kNON0Z
+2012-11-18 13:05:41.255  bR4M1JAXC+wp5PyuCqr6sjECdDn/sZ74jnJ6rSVDgcIaaP2I7R/xdVvSMBSqldS3bGwQ6tY
+2012-11-18 13:05:41.256  hj3dcXKjjI8+gf5F6GMozk8QB8JMoU08Y+OBDbfzYqnJzTj2UN0oziOaBdY/awMwaTAvwXo
+2012-11-18 13:05:41.257  Gy8xt3B7N5LtWnUpirjvbxxfhw7hcSDosiiw2JmMF/MHkR4TPWaXSUhcwCtwj7JV6FOEH5S
+2012-11-18 13:05:41.258  QPM7oHTVsa7DbBhBC3FpnUdf6OsWN/nLQ41mjtz9KuRgKd5Njqkn3Gf/+CrPO1dEWeHSl79
+2012-11-18 13:05:41.258  CADdDUXEXNrDakibfsxv6TGeUyz5Z40Xc3TQct0zpVGlT8GBhl5XJf9G5N8eeLUbdgFZWHd
+2012-11-18 13:05:41.259  NTF1wuCDc7IWgD3FVS9ukzO7SEDLnlOMWqOBsnRa++biXuMtkdCjT3nhF8HrNBdS3yWun2W
+2012-11-18 13:05:41.26  mwQ8MeEgJ3bmjUxQtpiEo7IQK24+i0HTzDDM0ofdxUxrg/2adnmEeTU8MdquxNYgIi+YSBN
+2012-11-18 13:05:41.261  CbVvB+0MPD4qU9WQHZgC32AlgR7DRZ1wxbFmJCFzgOEHF1MVX+YNgh1Tpl/p04h5ZivCSiz
+2012-11-18 13:05:41.261  aZUqV+hI76fQhp5pKXXHb081a/terro8cX/Kl6rQSvXNS78zOMqGGqjKb8ElhxcidLCG0Gq
+2012-11-18 13:05:41.262  CvatoxytqMAZJXT2uM2JvHAiKvjk9pAysm400zKU+bR/TOr6lsFkaYudbw8WnsjI0sRSP5e
+2012-11-18 13:05:41.263  Vi+c2nffo8MZkGaR8IngHZkFnme+8DZqm1aT5kUeU7GB5WZMIQtF2ZILiN+veWc9aGmH39m
+2012-11-18 13:05:41.264  DnKu0fx7wsfOOhCu/KxarUIvQyf65GraL7GGOMExS8NL1jHwL+Hbsy1CYNak5AZZHart2o9
+2012-11-18 13:05:41.264  3bmTvfhaFLgiMVAPVF/kGyQEtfiUxU/F4U67Jo0ksyO2ibFJrpOYs/k9MHmvkijNIXFYucv
+2012-11-18 13:05:41.265  Eb/2HpngtPhQJMGM9RhcUxEAsMXDah4gn6lPM4NzzPextRr8wiDo6aQ3RCGhtC2GmuoXHgj
+2012-11-18 13:05:41.266  YCqf60EyD4OdIkRxJpMyRf2B2w+0JE5JdmR2W0i070vE7SH/ScRR
+2012-11-18 13:05:41.266 
+2012-11-18 13:05:41.267 This is a multipart message in MIME format.
+2012-11-18 13:05:41.267 
+2012-11-18 13:05:41.267 ------=_NextPart_000_007C_01CDC58D.04168DE0
+2012-11-18 13:05:41.268 Content-Type: text/plain;
+2012-11-18 13:05:41.268 	charset="US-ASCII"
+2012-11-18 13:05:41.268 Content-Transfer-Encoding: 7bit
+2012-11-18 13:05:41.269 
+2012-11-18 13:05:41.269 schick dir mal die Mail:
+2012-11-18 13:05:41.269 
+2012-11-18 13:05:41.27 ..
+2012-11-18 13:05:41.27 
+2012-11-18 13:05:41.27 ...
+2012-11-18 13:05:41.271 
+2012-11-18 13:05:41.271 ....
+2012-11-18 13:05:41.271 
+2012-11-18 13:05:41.272 .....
+2012-11-18 13:05:41.272 
+2012-11-18 13:05:41.272 Loki ist toll
+2012-11-18 13:05:41.273 
+2012-11-18 13:05:41.273 
+2012-11-18 13:05:41.274 ------=_NextPart_000_007C_01CDC58D.04168DE0
+2012-11-18 13:05:41.274 Content-Type: text/html;
+2012-11-18 13:05:41.274 	charset="US-ASCII"
+2012-11-18 13:05:41.275 Content-Transfer-Encoding: quoted-printable
+2012-11-18 13:05:41.275 
+2012-11-18 13:05:41.275 <html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+2012-11-18 13:05:41.276 xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+2012-11-18 13:05:41.276 xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+2012-11-18 13:05:41.276 xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+2012-11-18 13:05:41.277 xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+2012-11-18 13:05:41.277 HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+2012-11-18 13:05:41.277 charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 14 =
+2012-11-18 13:05:41.278 (filtered medium)"><style><!--
+2012-11-18 13:05:41.278 /* Font Definitions */
+2012-11-18 13:05:41.279 @font-face
+2012-11-18 13:05:41.279 	{font-family:"Cambria Math";
+2012-11-18 13:05:41.279 	panose-1:2 4 5 3 5 4 6 3 2 4;}
+2012-11-18 13:05:41.28 @font-face
+2012-11-18 13:05:41.28 	{font-family:Calibri;
+2012-11-18 13:05:41.28 	panose-1:2 15 5 2 2 2 4 3 2 4;}
+2012-11-18 13:05:41.281 /* Style Definitions */
+2012-11-18 13:05:41.281 p.MsoNormal, li.MsoNormal, div.MsoNormal
+2012-11-18 13:05:41.281 	{margin:0cm;
+2012-11-18 13:05:41.282 	margin-bottom:.0001pt;
+2012-11-18 13:05:41.282 	font-size:11.0pt;
+2012-11-18 13:05:41.283 	font-family:"Calibri","sans-serif";
+2012-11-18 13:05:41.283 	mso-fareast-language:EN-US;}
+2012-11-18 13:05:41.284 a:link, span.MsoHyperlink
+2012-11-18 13:05:41.284 	{mso-style-priority:99;
+2012-11-18 13:05:41.284 	color:blue;
+2012-11-18 13:05:41.285 	text-decoration:underline;}
+2012-11-18 13:05:41.285 a:visited, span.MsoHyperlinkFollowed
+2012-11-18 13:05:41.285 	{mso-style-priority:99;
+2012-11-18 13:05:41.286 	color:purple;
+2012-11-18 13:05:41.286 	text-decoration:underline;}
+2012-11-18 13:05:41.286 span.E-MailFormatvorlage17
+2012-11-18 13:05:41.287 	{mso-style-type:personal-compose;
+2012-11-18 13:05:41.287 	font-family:"Calibri","sans-serif";
+2012-11-18 13:05:41.287 	color:windowtext;}
+2012-11-18 13:05:41.288 ..MsoChpDefault
+2012-11-18 13:05:41.288 	{mso-style-type:export-only;
+2012-11-18 13:05:41.288 	font-family:"Calibri","sans-serif";
+2012-11-18 13:05:41.289 	mso-fareast-language:EN-US;}
+2012-11-18 13:05:41.289 @page WordSection1
+2012-11-18 13:05:41.29 	{size:612.0pt 792.0pt;
+2012-11-18 13:05:41.29 	margin:70.85pt 70.85pt 2.0cm 70.85pt;}
+2012-11-18 13:05:41.29 div.WordSection1
+2012-11-18 13:05:41.291 	{page:WordSection1;}
+2012-11-18 13:05:41.291 --></style><!--[if gte mso 9]><xml>
+2012-11-18 13:05:41.291 <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+2012-11-18 13:05:41.292 </xml><![endif]--><!--[if gte mso 9]><xml>
+2012-11-18 13:05:41.292 <o:shapelayout v:ext=3D"edit">
+2012-11-18 13:05:41.292 <o:idmap v:ext=3D"edit" data=3D"1" />
+2012-11-18 13:05:41.293 </o:shapelayout></xml><![endif]--></head><body lang=3DDE link=3Dblue =
+2012-11-18 13:05:41.293 vlink=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal>schick dir =
+2012-11-18 13:05:41.293 mal die Mail:<o:p></o:p></p><p class=3DMsoNormal>.<o:p></o:p></p><p =
+2012-11-18 13:05:41.294 class=3DMsoNormal>..<o:p></o:p></p><p =
+2012-11-18 13:05:41.294 class=3DMsoNormal>...<o:p></o:p></p><p =
+2012-11-18 13:05:41.294 class=3DMsoNormal>....<o:p></o:p></p><p class=3DMsoNormal>Loki ist =
+2012-11-18 13:05:41.295 toll<o:p></o:p></p></div></body></html>
+2012-11-18 13:05:41.295 ------=_NextPart_000_007C_01CDC58D.04168DE0--
+2012-11-18 13:05:41.295 
+2012-11-18 13:05:41.296 .
+2012-11-18 13:05:41.296 TCP Client has sent the message: DELE 1
+2012-11-18 13:05:41.394 +OK
+2012-11-18 13:05:41.395 TCP Client has sent the message: UIDL 2
+2012-11-18 13:05:41.49 +OK 2 0MgdSN-1TxvEn2nNH-00O5g4
+2012-11-18 13:05:41.491 TCP Client has sent the message: RETR 2
+2012-11-18 13:05:41.588 +OK
+2012-11-18 13:05:41.619 Return-Path: janlepel@aol.com
+2012-11-18 13:05:41.62 Received: from imr-mb01.mx.aol.com ([64.12.207.164]) by mx-ha.web.de
+2012-11-18 13:05:41.621  (mxweb105) with ESMTP (Nemesis) id 0MgdSN-1TxvEn2nNH-00O5g4 for
+2012-11-18 13:05:41.622  <fhmailer@web.de>; Sun, 18 Nov 2012 13:05:26 +0100
+2012-11-18 13:05:41.623 Received: from mtaout-db05.r1000.mx.aol.com (mtaout-db05.r1000.mx.aol.com [172.29.51.197])
+2012-11-18 13:05:41.624 	by imr-mb01.mx.aol.com (Outbound Mail Relay) with ESMTP id 26E1E1C0000E9
+2012-11-18 13:05:41.624 	for <fhmailer@web.de>; Sun, 18 Nov 2012 07:05:26 -0500 (EST)
+2012-11-18 13:05:41.625 Received: from DerDocPC (31-18-150-175-dynip.superkabel.de [31.18.150.175])
+2012-11-18 13:05:41.626 	(using TLSv1 with cipher AES128-SHA (128/128 bits))
+2012-11-18 13:05:41.627 	(No client certificate requested)
+2012-11-18 13:05:41.627 	by mtaout-db05.r1000.mx.aol.com (MUA/Third Party Client Interface) with ESMTPSA id 55DF4E0000C5
+2012-11-18 13:05:41.628 	for <fhmailer@web.de>; Sun, 18 Nov 2012 07:05:25 -0500 (EST)
+2012-11-18 13:05:41.629 From: "Jan Lepel" <janlepel@aol.com>
+2012-11-18 13:05:41.629 To: <fhmailer@web.de>
+2012-11-18 13:05:41.63 Subject: 8888888888888
+2012-11-18 13:05:41.631 Date: Sun, 18 Nov 2012 13:05:32 +0100
+2012-11-18 13:05:41.632 Message-ID: <008501cdc585$035e0cf0$0a1a26d0$@aol.com>
+2012-11-18 13:05:41.632 MIME-Version: 1.0
+2012-11-18 13:05:41.633 Content-Type: multipart/alternative;
+2012-11-18 13:05:41.634 	boundary="----=_NextPart_000_0086_01CDC58D.6522EA20"
+2012-11-18 13:05:41.635 X-Mailer: Microsoft Outlook 14.0
+2012-11-18 13:05:41.635 Thread-Index: Ac3FhP/LKGyqBBciSOGmB1psUZLEcw==
+2012-11-18 13:05:41.636 Content-Language: de
+2012-11-18 13:05:41.637 x-aol-global-disposition: G
+2012-11-18 13:05:41.638 DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mx.aol.com;
+2012-11-18 13:05:41.638 	s=20110426; t=1353240326;
+2012-11-18 13:05:41.639 	bh=b3EbAurWcRW71McxSXgT67BWmjOOb+TWjf3z7gQCH/Y=;
+2012-11-18 13:05:41.64 	h=From:To:Subject:Message-ID:Date:MIME-Version:Content-Type;
+2012-11-18 13:05:41.641 	b=g6VmkRVMmqQ3sHp4A31+GT6x4VNjZrYpvAbbpDgZ9zENQIFTbXFapBE4kfFpOKbbR
+2012-11-18 13:05:41.641 	 kp03lvBH4XW1LlvjWJJjUmpG+7OXpPtxG/MdNBRoGmlgj5XecJoMTWwIbYkA+G+/aQ
+2012-11-18 13:05:41.642 	 ypxVcjCboD+bCAYI24npfPYdfF/EdoADfW6ixcqA=
+2012-11-18 13:05:41.643 X-AOL-SCOLL-SCORE: 0:2:99199752:93952408  
+2012-11-18 13:05:41.643 X-AOL-SCOLL-URL_COUNT: 0  
+2012-11-18 13:05:41.644 x-aol-sid: 3039ac1d33c550a8cf052b47
+2012-11-18 13:05:41.645 X-AOL-IP: 31.18.150.175
+2012-11-18 13:05:41.646 Envelope-To: <fhmailer@web.de>
+2012-11-18 13:05:41.646 X-UI-Filterresults: ;V01:K0:M5nVX7Iv:4FdrrXKcUWQeAYkVGDja78EX3tMg7dqS8SZ
+2012-11-18 13:05:41.647  OsKT5UMlcBacOMfwO3jWXncAPbdtf20drPj91WP2jchLyzjX0siD6ZDeCDmcpBKuK/5u9m9
+2012-11-18 13:05:41.648  3zNB4u+1WXqB8D8Rb40RCeR/ZgA0yJB+CyJBrGYDL0XJHmp0PMuJw/LfNIa7gQ6ajuTYFzb
+2012-11-18 13:05:41.648  U+p7yjPNX9OR/2K0iaM2K9C6U9oHVVjSkEbq9RLUEGcLiQG0FUyG3c17OeijI9k9zlMKJWP
+2012-11-18 13:05:41.649  JXYfDoSWNC1xvCpwQNzXRpaUt/tMk7J9+Dkptpkruc2pDS6QAmS/ItxOuie5aHnW9QGVaYK
+2012-11-18 13:05:41.65  YLFBidJt9YX9tRpApaTmwbOi/dTzOvj5sPf6/D2u5nlwaoobVa0gBaubXctdoASBfFjL1kM
+2012-11-18 13:05:41.651  Qbzwv2TWl8zOqkqrLmw+mWJpsPDPXMvTBKRpYkxZ9TDsPhtQXwNMgtz4vrn+vfvH4BAswtx
+2012-11-18 13:05:41.651  YyY7ewzEZs+XGPCEub8FwaKEgQcDDc2E5ksaBHGoJCt5QJDSqCqyi6o8EdWe1KcRB6cT6oL
+2012-11-18 13:05:41.652  mRUeisCEL8vqB6+SJX9kev7023QD9KYfVRbHdRlJYcNk0nk9zGzQEFbvRRMIkNqDT6J8whp
+2012-11-18 13:05:41.653  SuXIO9AVrsshIx/owzpqpOQYA90GiBHU7JlWZNf6xZBIRbk5Uo6IuH080W9hLrReb2bakx0
+2012-11-18 13:05:41.654  W633rhqihttHnWMESGAycHLKoG2kqTpepl1at6T8LK0yuot/4dRTOou3lagolQ8imEvlz/T
+2012-11-18 13:05:41.654  2F86AmLY6hJ0Ujoze2/rD6T7/cDA8MPNbz/J8cD/uMC+tC4kxmgZ3T3U8WAH7MsT7OW6t1g
+2012-11-18 13:05:41.655  gGxe/PlrcWjZRQMMqw8L3/AXOME+hsaHGJQwMuIGM7D8ELMZU3Zl0l7Cc395W1ulRw3iWiL
+2012-11-18 13:05:41.656  Tzx9pxrWv93EnP5hAE96u+5N99/GE9fWTVkzdBxNbMUWIXqw62F9Ize41y9ejIIhJ4SAssG
+2012-11-18 13:05:41.656  kYeO74BHFtIFpmOGvyen2EOdSvaWYfXJRGsJjxsTVrtQEFA7uuWkRTPcFV+EixzWXypglqb
+2012-11-18 13:05:41.657  bxykoVZq8stwdFN6pUfgLFj3svWEpX+Al6OoYqXPeUH0oZWDfggs/CPNZ7SAs/xbHDvOcwv
+2012-11-18 13:05:41.657  q5264CoD+HVfIco7vqv/B/vK8nGKQDd6BCf9B9a5Pxm70+UZp+QV8ZyB0vwFPoVnjyeDeL6
+2012-11-18 13:05:41.657  SOQ==
+2012-11-18 13:05:41.658 
+2012-11-18 13:05:41.658 This is a multipart message in MIME format.
+2012-11-18 13:05:41.658 
+2012-11-18 13:05:41.659 ------=_NextPart_000_0086_01CDC58D.6522EA20
+2012-11-18 13:05:41.659 Content-Type: text/plain;
+2012-11-18 13:05:41.659 	charset="US-ASCII"
+2012-11-18 13:05:41.66 Content-Transfer-Encoding: 7bit
+2012-11-18 13:05:41.66 
+2012-11-18 13:05:41.66 ..
+2012-11-18 13:05:41.661 
+2012-11-18 13:05:41.661 ...
+2012-11-18 13:05:41.661 
+2012-11-18 13:05:41.662 ....
+2012-11-18 13:05:41.662 
+2012-11-18 13:05:41.662 .....
+2012-11-18 13:05:41.663 
+2012-11-18 13:05:41.663 Loki ist toll
+2012-11-18 13:05:41.663 
+2012-11-18 13:05:41.664 
+2012-11-18 13:05:41.664 ------=_NextPart_000_0086_01CDC58D.6522EA20
+2012-11-18 13:05:41.664 Content-Type: text/html;
+2012-11-18 13:05:41.665 	charset="US-ASCII"
+2012-11-18 13:05:41.665 Content-Transfer-Encoding: quoted-printable
+2012-11-18 13:05:41.665 
+2012-11-18 13:05:41.666 <html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+2012-11-18 13:05:41.666 xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+2012-11-18 13:05:41.667 xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+2012-11-18 13:05:41.667 xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+2012-11-18 13:05:41.667 xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+2012-11-18 13:05:41.668 HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+2012-11-18 13:05:41.668 charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 14 =
+2012-11-18 13:05:41.668 (filtered medium)"><style><!--
+2012-11-18 13:05:41.669 /* Font Definitions */
+2012-11-18 13:05:41.669 @font-face
+2012-11-18 13:05:41.669 	{font-family:"Cambria Math";
+2012-11-18 13:05:41.67 	panose-1:2 4 5 3 5 4 6 3 2 4;}
+2012-11-18 13:05:41.67 @font-face
+2012-11-18 13:05:41.67 	{font-family:Calibri;
+2012-11-18 13:05:41.671 	panose-1:2 15 5 2 2 2 4 3 2 4;}
+2012-11-18 13:05:41.671 /* Style Definitions */
+2012-11-18 13:05:41.671 p.MsoNormal, li.MsoNormal, div.MsoNormal
+2012-11-18 13:05:41.672 	{margin:0cm;
+2012-11-18 13:05:41.672 	margin-bottom:.0001pt;
+2012-11-18 13:05:41.672 	font-size:11.0pt;
+2012-11-18 13:05:41.673 	font-family:"Calibri","sans-serif";
+2012-11-18 13:05:41.673 	mso-fareast-language:EN-US;}
+2012-11-18 13:05:41.673 a:link, span.MsoHyperlink
+2012-11-18 13:05:41.674 	{mso-style-priority:99;
+2012-11-18 13:05:41.674 	color:blue;
+2012-11-18 13:05:41.674 	text-decoration:underline;}
+2012-11-18 13:05:41.675 a:visited, span.MsoHyperlinkFollowed
+2012-11-18 13:05:41.675 	{mso-style-priority:99;
+2012-11-18 13:05:41.675 	color:purple;
+2012-11-18 13:05:41.676 	text-decoration:underline;}
+2012-11-18 13:05:41.676 span.E-MailFormatvorlage17
+2012-11-18 13:05:41.676 	{mso-style-type:personal-compose;
+2012-11-18 13:05:41.677 	font-family:"Calibri","sans-serif";
+2012-11-18 13:05:41.677 	color:windowtext;}
+2012-11-18 13:05:41.677 ..MsoChpDefault
+2012-11-18 13:05:41.678 	{mso-style-type:export-only;
+2012-11-18 13:05:41.678 	font-family:"Calibri","sans-serif";
+2012-11-18 13:05:41.678 	mso-fareast-language:EN-US;}
+2012-11-18 13:05:41.679 @page WordSection1
+2012-11-18 13:05:41.679 	{size:612.0pt 792.0pt;
+2012-11-18 13:05:41.679 	margin:70.85pt 70.85pt 2.0cm 70.85pt;}
+2012-11-18 13:05:41.68 div.WordSection1
+2012-11-18 13:05:41.68 	{page:WordSection1;}
+2012-11-18 13:05:41.68 --></style><!--[if gte mso 9]><xml>
+2012-11-18 13:05:41.681 <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+2012-11-18 13:05:41.681 </xml><![endif]--><!--[if gte mso 9]><xml>
+2012-11-18 13:05:41.681 <o:shapelayout v:ext=3D"edit">
+2012-11-18 13:05:41.682 <o:idmap v:ext=3D"edit" data=3D"1" />
+2012-11-18 13:05:41.682 </o:shapelayout></xml><![endif]--></head><body lang=3DDE link=3Dblue =
+2012-11-18 13:05:41.683 vlink=3Dpurple><div class=3DWordSection1><p =
+2012-11-18 13:05:41.683 class=3DMsoNormal>.<o:p></o:p></p><p =
+2012-11-18 13:05:41.683 class=3DMsoNormal>..<o:p></o:p></p><p =
+2012-11-18 13:05:41.684 class=3DMsoNormal>...<o:p></o:p></p><p =
+2012-11-18 13:05:41.684 class=3DMsoNormal>....<o:p></o:p></p><p class=3DMsoNormal>Loki ist =
+2012-11-18 13:05:41.684 toll<o:p></o:p></p></div></body></html>
+2012-11-18 13:05:41.685 ------=_NextPart_000_0086_01CDC58D.6522EA20--
+2012-11-18 13:05:41.685 
+2012-11-18 13:05:41.685 .
+2012-11-18 13:05:41.686 TCP Client has sent the message: DELE 2
+2012-11-18 13:05:41.793 +OK
+2012-11-18 13:05:41.794 TCP Client has sent the message: QUIT
+2012-11-18 13:05:54.856 TCP Server Thread 2 has written the message: +OK POP3 server ready
+2012-11-18 13:05:54.856 TCP Server Thread detected job: CAPA
+2012-11-18 13:05:54.857 TCP Server Thread 2 has written the message: -ERR no valid command
+2012-11-18 13:05:54.857 TCP Server Thread detected job: USER mett@bla.de
+2012-11-18 13:05:54.858 TCP Server Thread 2 has written the message: +OK password required for user 'mett@bla.de'
+2012-11-18 13:05:54.858 TCP Server Thread detected job: PASS mett
+2012-11-18 13:05:54.859 TCP Server Thread 2 has written the message: +OK mett@bla.de has 3 massages <15846 octets>
+2012-11-18 13:05:54.86 TCP Server Thread detected job: STAT
+2012-11-18 13:05:54.86 TCP Server Thread 2 has written the message: +OK 3 <15846 octets>
+2012-11-18 13:05:54.861 TCP Server Thread detected job: LIST
+2012-11-18 13:05:54.862 TCP Server Thread 2 has written the message: +OK 3 messages  <15846 octets>
+2012-11-18 13:05:54.863 TCP Server Thread 2 has written the message: 1 15846
+2012-11-18 13:05:54.863 TCP Server Thread 2 has written the message: 2 15846
+2012-11-18 13:05:54.864 TCP Server Thread 2 has written the message: 3 15846
+2012-11-18 13:05:54.864 TCP Server Thread 2 has written the message: .
+2012-11-18 13:05:54.864 TCP Server Thread detected job: UIDL
+2012-11-18 13:05:54.865 TCP Server Thread 2 has written the message: +OK
+2012-11-18 13:05:54.865 TCP Server Thread 2 has written the message: 10LaVlX-1SrfRj0wz1-00mCj7.txt
+2012-11-18 13:05:54.866 TCP Server Thread 2 has written the message: 20LtHUN-1T86Ol2Dmd-012smz.txt
+2012-11-18 13:05:54.866 TCP Server Thread 2 has written the message: 30MgdSN-1TxvEn2nNH-00O5g4.txt
+2012-11-18 13:05:54.866 TCP Server Thread 2 has written the message: .
+2012-11-18 13:05:54.866 TCP Server Thread detected job: RETR 1
+2012-11-18 13:05:54.867 TCP Server Thread 2 has written the message: +OK
+2012-11-18 13:05:54.895 TCP Server Thread detected job: DELE 1
+2012-11-18 13:05:54.895 TCP Server Thread 2 has written the message: +OK message 1 deleted
+2012-11-18 13:05:54.896 TCP Server Thread detected job: RETR 2
+2012-11-18 13:05:54.896 TCP Server Thread 2 has written the message: +OK
+2012-11-18 13:05:54.923 TCP Server Thread detected job: DELE 2
+2012-11-18 13:05:54.923 TCP Server Thread 2 has written the message: +OK message 2 deleted
+2012-11-18 13:05:54.936 TCP Server Thread detected job: RETR 3
+2012-11-18 13:05:54.937 TCP Server Thread 2 has written the message: +OK
+2012-11-18 13:05:54.968 TCP Server Thread detected job: DELE 3
+2012-11-18 13:05:54.969 TCP Server Thread 2 has written the message: +OK message 3 deleted
+2012-11-18 13:05:54.978 TCP Server Thread detected job: QUIT
+2012-11-18 13:05:54.979 TCP Server Thread 2 has written the message: +OK POP3 Server singing off
+2012-11-18 13:06:21.844 +OK POP server ready H miweb104
+2012-11-18 13:06:21.845 +OK POP server ready H miweb104
+2012-11-18 13:06:21.846 TCP Client has sent the message: USER fhtestmailer@web.de
+2012-11-18 13:06:21.895 +OK password required for user "fhtestmailer@web.de"
+2012-11-18 13:06:21.896 TCP Client has sent the message: PASS fhtestmailer123
+2012-11-18 13:06:22.008 -ERR login only every 720 seconds allowed
+2012-11-18 13:06:22.008 TCP Client has sent the message: QUIT
+2012-11-18 13:06:22.071 +OK POP server ready H miweb115
+2012-11-18 13:06:22.071 +OK POP server ready H miweb115
+2012-11-18 13:06:22.072 TCP Client has sent the message: USER fhmailer@web.de
+2012-11-18 13:06:22.129 +OK password required for user "fhmailer@web.de"
+2012-11-18 13:06:22.13 TCP Client has sent the message: PASS fhmailer123
+2012-11-18 13:06:22.252 -ERR login only every 720 seconds allowed
+2012-11-18 13:06:22.253 TCP Client has sent the message: QUIT
+2012-11-18 13:07:02.304 +OK POP server ready H miweb114
+2012-11-18 13:07:02.305 +OK POP server ready H miweb114
+2012-11-18 13:07:02.306 TCP Client has sent the message: USER fhtestmailer@web.de
+2012-11-18 13:07:02.355 +OK password required for user "fhtestmailer@web.de"
+2012-11-18 13:07:02.356 TCP Client has sent the message: PASS fhtestmailer123
+2012-11-18 13:07:02.464 +OK mailbox "fhtestmailer@web.de" has 0 messages (0 octets) H miweb114
+2012-11-18 13:07:02.464 TCP Client has sent the message: STAT
+2012-11-18 13:07:02.55 +OK 0 0
+2012-11-18 13:07:02.551 TCP Client has sent the message: QUIT
+2012-11-18 13:07:02.616 +OK POP server ready H miweb113
+2012-11-18 13:07:02.617 +OK POP server ready H miweb113
+2012-11-18 13:07:02.617 TCP Client has sent the message: USER fhmailer@web.de
+2012-11-18 13:07:02.678 +OK password required for user "fhmailer@web.de"
+2012-11-18 13:07:02.679 TCP Client has sent the message: PASS fhmailer123
+2012-11-18 13:07:02.8 +OK mailbox "fhmailer@web.de" has 0 messages (0 octets) H miweb113
+2012-11-18 13:07:02.801 TCP Client has sent the message: STAT
+2012-11-18 13:07:02.907 +OK 0 0
+2012-11-18 13:07:02.908 TCP Client has sent the message: QUIT
+2012-11-18 13:07:42.955 +OK POP server ready H miweb101
+2012-11-18 13:07:42.956 +OK POP server ready H miweb101
+2012-11-18 13:07:42.956 TCP Client has sent the message: USER fhtestmailer@web.de
+2012-11-18 13:07:43.004 +OK password required for user "fhtestmailer@web.de"
+2012-11-18 13:07:43.012 TCP Client has sent the message: PASS fhtestmailer123
+2012-11-18 13:07:43.123 -ERR login only every 720 seconds allowed
+2012-11-18 13:07:43.124 TCP Client has sent the message: QUIT
+2012-11-18 13:07:43.187 +OK POP server ready H miweb112
+2012-11-18 13:07:43.187 +OK POP server ready H miweb112
+2012-11-18 13:07:43.188 TCP Client has sent the message: USER fhmailer@web.de
+2012-11-18 13:07:43.25 +OK password required for user "fhmailer@web.de"
+2012-11-18 13:07:43.251 TCP Client has sent the message: PASS fhmailer123
+2012-11-18 13:07:43.371 -ERR login only every 720 seconds allowed
+2012-11-18 13:07:43.371 TCP Client has sent the message: QUIT
+2012-11-18 13:08:23.436 +OK POP server ready H miweb101
+2012-11-18 13:08:23.437 +OK POP server ready H miweb101
+2012-11-18 13:08:23.438 TCP Client has sent the message: USER fhtestmailer@web.de
+2012-11-18 13:08:23.498 +OK password required for user "fhtestmailer@web.de"
+2012-11-18 13:08:23.499 TCP Client has sent the message: PASS fhtestmailer123
+2012-11-18 13:08:23.625 +OK mailbox "fhtestmailer@web.de" has 0 messages (0 octets) H miweb101
+2012-11-18 13:08:23.626 TCP Client has sent the message: STAT
+2012-11-18 13:08:23.725 +OK 0 0
+2012-11-18 13:08:23.726 TCP Client has sent the message: QUIT
+2012-11-18 13:08:23.778 +OK POP server ready H miweb114
+2012-11-18 13:08:23.779 +OK POP server ready H miweb114
+2012-11-18 13:08:23.779 TCP Client has sent the message: USER fhmailer@web.de
+2012-11-18 13:08:23.827 +OK password required for user "fhmailer@web.de"
+2012-11-18 13:08:23.828 TCP Client has sent the message: PASS fhmailer123
+2012-11-18 13:08:23.958 +OK mailbox "fhmailer@web.de" has 0 messages (0 octets) H miweb114
+2012-11-18 13:08:23.959 TCP Client has sent the message: STAT
+2012-11-18 13:08:24.005 +OK 0 0
+2012-11-18 13:08:24.006 TCP Client has sent the message: QUIT
+2012-11-18 13:09:04.055 +OK POP server ready H miweb107
+2012-11-18 13:09:04.056 +OK POP server ready H miweb107
+2012-11-18 13:09:04.057 TCP Client has sent the message: USER fhtestmailer@web.de
+2012-11-18 13:09:04.104 +OK password required for user "fhtestmailer@web.de"
+2012-11-18 13:09:04.105 TCP Client has sent the message: PASS fhtestmailer123
+2012-11-18 13:09:04.247 -ERR login only every 720 seconds allowed
+2012-11-18 13:09:04.248 TCP Client has sent the message: QUIT
+2012-11-18 13:09:04.3 +OK POP server ready H miweb109
+2012-11-18 13:09:04.3 +OK POP server ready H miweb109
+2012-11-18 13:09:04.301 TCP Client has sent the message: USER fhmailer@web.de
+2012-11-18 13:09:04.348 +OK password required for user "fhmailer@web.de"
+2012-11-18 13:09:04.348 TCP Client has sent the message: PASS fhmailer123
+2012-11-18 13:09:04.458 -ERR login only every 720 seconds allowed
+2012-11-18 13:09:04.459 TCP Client has sent the message: QUIT
+2012-11-18 13:09:44.52 +OK POP server ready H miweb104
+2012-11-18 13:09:44.521 +OK POP server ready H miweb104
+2012-11-18 13:09:44.521 TCP Client has sent the message: USER fhtestmailer@web.de
+2012-11-18 13:09:44.581 +OK password required for user "fhtestmailer@web.de"
+2012-11-18 13:09:44.582 TCP Client has sent the message: PASS fhtestmailer123
+2012-11-18 13:09:44.702 +OK mailbox "fhtestmailer@web.de" has 0 messages (0 octets) H miweb104
+2012-11-18 13:09:44.702 TCP Client has sent the message: STAT
+2012-11-18 13:09:44.803 +OK 0 0
+2012-11-18 13:09:44.803 TCP Client has sent the message: QUIT
+2012-11-18 13:09:44.872 +OK POP server ready H miweb105
+2012-11-18 13:09:44.872 +OK POP server ready H miweb105
+2012-11-18 13:09:44.873 TCP Client has sent the message: USER fhmailer@web.de
+2012-11-18 13:09:44.932 +OK password required for user "fhmailer@web.de"
+2012-11-18 13:09:44.933 TCP Client has sent the message: PASS fhmailer123
+2012-11-18 13:09:45.073 +OK mailbox "fhmailer@web.de" has 0 messages (0 octets) H miweb105
+2012-11-18 13:09:45.073 TCP Client has sent the message: STAT
+2012-11-18 13:09:45.131 +OK 0 0
+2012-11-18 13:09:45.132 TCP Client has sent the message: QUIT
+2012-11-18 13:10:25.193 +OK POP server ready H miweb112
+2012-11-18 13:10:25.194 +OK POP server ready H miweb112
+2012-11-18 13:10:25.194 TCP Client has sent the message: USER fhtestmailer@web.de
+2012-11-18 13:10:25.242 +OK password required for user "fhtestmailer@web.de"
+2012-11-18 13:10:25.243 TCP Client has sent the message: PASS fhtestmailer123
+2012-11-18 13:10:25.35 -ERR login only every 720 seconds allowed
+2012-11-18 13:10:25.351 TCP Client has sent the message: QUIT
+2012-11-18 13:10:25.414 +OK POP server ready H miweb115
+2012-11-18 13:10:25.414 +OK POP server ready H miweb115
+2012-11-18 13:10:25.415 TCP Client has sent the message: USER fhmailer@web.de
+2012-11-18 13:10:25.475 +OK password required for user "fhmailer@web.de"
+2012-11-18 13:10:25.476 TCP Client has sent the message: PASS fhmailer123
+2012-11-18 13:10:25.661 -ERR login only every 720 seconds allowed
+2012-11-18 13:10:25.662 TCP Client has sent the message: QUIT
+2012-11-18 13:11:05.717 +OK POP server ready H miweb113
+2012-11-18 13:11:05.717 +OK POP server ready H miweb113
+2012-11-18 13:11:05.718 TCP Client has sent the message: USER fhtestmailer@web.de
+2012-11-18 13:11:05.765 +OK password required for user "fhtestmailer@web.de"
+2012-11-18 13:11:05.766 TCP Client has sent the message: PASS fhtestmailer123
+2012-11-18 13:11:05.895 +OK mailbox "fhtestmailer@web.de" has 0 messages (0 octets) H miweb113
+2012-11-18 13:11:05.895 TCP Client has sent the message: STAT
+2012-11-18 13:11:05.942 +OK 0 0
+2012-11-18 13:11:05.943 TCP Client has sent the message: QUIT
+2012-11-18 13:11:05.991 +OK POP server ready H miweb116
+2012-11-18 13:11:05.992 +OK POP server ready H miweb116
+2012-11-18 13:11:05.992 TCP Client has sent the message: USER fhmailer@web.de
+2012-11-18 13:11:06.039 +OK password required for user "fhmailer@web.de"
+2012-11-18 13:11:06.039 TCP Client has sent the message: PASS fhmailer123
+2012-11-18 13:11:06.148 +OK mailbox "fhmailer@web.de" has 0 messages (0 octets) H miweb116
+2012-11-18 13:11:06.149 TCP Client has sent the message: STAT
+2012-11-18 13:11:06.232 +OK 0 0
+2012-11-18 13:11:06.232 TCP Client has sent the message: QUIT
+2012-11-18 13:11:46.292 +OK POP server ready H miweb107
+2012-11-18 13:11:46.293 +OK POP server ready H miweb107
+2012-11-18 13:11:46.293 TCP Client has sent the message: USER fhtestmailer@web.de
+2012-11-18 13:11:46.353 +OK password required for user "fhtestmailer@web.de"
+2012-11-18 13:11:46.354 TCP Client has sent the message: PASS fhtestmailer123
+2012-11-18 13:11:46.478 -ERR login only every 720 seconds allowed
+2012-11-18 13:11:46.478 TCP Client has sent the message: QUIT
+2012-11-18 13:11:46.543 +OK POP server ready H miweb103
+2012-11-18 13:11:46.543 +OK POP server ready H miweb103
+2012-11-18 13:11:46.544 TCP Client has sent the message: USER fhmailer@web.de
+2012-11-18 13:11:46.604 +OK password required for user "fhmailer@web.de"
+2012-11-18 13:11:46.605 TCP Client has sent the message: PASS fhmailer123
+2012-11-18 13:11:46.725 -ERR login only every 720 seconds allowed
+2012-11-18 13:11:46.726 TCP Client has sent the message: QUIT
+2012-11-18 13:12:26.79 +OK POP server ready H miweb102
+2012-11-18 13:12:26.791 +OK POP server ready H miweb102
+2012-11-18 13:12:26.791 TCP Client has sent the message: USER fhtestmailer@web.de
+2012-11-18 13:12:26.85 +OK password required for user "fhtestmailer@web.de"
+2012-11-18 13:12:26.85 TCP Client has sent the message: PASS fhtestmailer123
+2012-11-18 13:12:26.974 +OK mailbox "fhtestmailer@web.de" has 0 messages (0 octets) H miweb102
+2012-11-18 13:12:26.975 TCP Client has sent the message: STAT
+2012-11-18 13:12:27.074 +OK 0 0
+2012-11-18 13:12:27.075 TCP Client has sent the message: QUIT
+2012-11-18 13:12:27.135 +OK POP server ready H miweb107
+2012-11-18 13:12:27.136 +OK POP server ready H miweb107
+2012-11-18 13:12:27.136 TCP Client has sent the message: USER fhmailer@web.de
+2012-11-18 13:12:27.194 +OK password required for user "fhmailer@web.de"
+2012-11-18 13:12:27.195 TCP Client has sent the message: PASS fhmailer123
+2012-11-18 13:12:27.32 +OK mailbox "fhmailer@web.de" has 0 messages (0 octets) H miweb107
+2012-11-18 13:12:27.32 TCP Client has sent the message: STAT
+2012-11-18 13:12:27.417 +OK 0 0
+2012-11-18 13:12:27.418 TCP Client has sent the message: QUIT
+2012-11-18 13:13:07.467 +OK POP server ready H miweb113
+2012-11-18 13:13:07.468 +OK POP server ready H miweb113
+2012-11-18 13:13:07.469 TCP Client has sent the message: USER fhtestmailer@web.de
+2012-11-18 13:13:07.519 +OK password required for user "fhtestmailer@web.de"
+2012-11-18 13:13:07.52 TCP Client has sent the message: PASS fhtestmailer123
+2012-11-18 13:13:07.635 -ERR login only every 720 seconds allowed
+2012-11-18 13:13:07.635 TCP Client has sent the message: QUIT
+2012-11-18 13:13:07.7 +OK POP server ready H miweb109
+2012-11-18 13:13:07.701 +OK POP server ready H miweb109
+2012-11-18 13:13:07.702 TCP Client has sent the message: USER fhmailer@web.de
+2012-11-18 13:13:07.763 +OK password required for user "fhmailer@web.de"
+2012-11-18 13:13:07.763 TCP Client has sent the message: PASS fhmailer123
+2012-11-18 13:13:07.891 -ERR login only every 720 seconds allowed
+2012-11-18 13:13:07.891 TCP Client has sent the message: QUIT
+2012-11-18 13:13:47.948 +OK POP server ready H miweb103
+2012-11-18 13:13:47.948 +OK POP server ready H miweb103
+2012-11-18 13:13:47.949 TCP Client has sent the message: USER fhtestmailer@web.de
+2012-11-18 13:13:47.995 +OK password required for user "fhtestmailer@web.de"
+2012-11-18 13:13:47.996 TCP Client has sent the message: PASS fhtestmailer123
+2012-11-18 13:13:48.132 +OK mailbox "fhtestmailer@web.de" has 0 messages (0 octets) H miweb103
+2012-11-18 13:13:48.133 TCP Client has sent the message: STAT
+2012-11-18 13:13:48.192 +OK 0 0
+2012-11-18 13:13:48.193 TCP Client has sent the message: QUIT
+2012-11-18 13:13:48.255 +OK POP server ready H miweb102
+2012-11-18 13:13:48.255 +OK POP server ready H miweb102
+2012-11-18 13:13:48.256 TCP Client has sent the message: USER fhmailer@web.de
+2012-11-18 13:13:48.315 +OK password required for user "fhmailer@web.de"
+2012-11-18 13:13:48.316 TCP Client has sent the message: PASS fhmailer123
+2012-11-18 13:13:48.443 +OK mailbox "fhmailer@web.de" has 0 messages (0 octets) H miweb102
+2012-11-18 13:13:48.444 TCP Client has sent the message: STAT
+2012-11-18 13:13:48.542 +OK 0 0
+2012-11-18 13:13:48.542 TCP Client has sent the message: QUIT
