@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.List;
 
 import User.UserData;
 import fileManager.MailReader;
@@ -68,7 +69,7 @@ class TCPServerThread extends Thread {
 	private BufferedReader readIn;
 	private DataOutputStream writeTo;
 
-	// EMAILS BEREITHALTEN hier hin!!! Muss noch gebaut werden
+
 
 	public void run() {
 		try {
@@ -94,7 +95,7 @@ class TCPServerThread extends Thread {
 				
 				boolean oversize = false;
 				int args = 0;
-				System.out.println(reply);
+
 				if (reply.length() < 4) {
 					writeToClient("-ERR no valid command");
 					continue;
@@ -114,7 +115,7 @@ class TCPServerThread extends Thread {
 					
 					case "STAT":
 						//TODO: stat imme alle oder nur ohne die gelöschten?
-						writeToClient("+OK " + manager.getSize() + " <" + manager.getOctets() + " octets>");
+						writeToClient("+OK " + manager.getSize() + " <" + manager.getAllOctets() + " octets>");
 						break;
 					
 					case "QUIT":
@@ -191,18 +192,25 @@ class TCPServerThread extends Thread {
 
 					case "LIST":
 						//ohne argumente
-						System.out.println("Args: " + args);
+						
+						List<Long> octets = manager.getOneOctet();
+
 						if (args == 0) {
-							writeToClient("+OK " + manager.getSize() + " messages " + " <" + manager.getOctets() + " octets>");
+							writeToClient("+OK " + manager.getSize() + " messages " + " <" + manager.getAllOctets() + " octets>");
 							
-							System.out.println("+OK " + manager.getSize());
+						
 							
 							for(int i = 1; i <= manager.getSize(); i++){
 								if(manager.getElem(i) == null){
 									continue;
 								}
-								writeToClient("" + i + " " +  manager.getOctets());
 								
+								if(octets.isEmpty()){
+									writeToClient("+OK");
+								}
+								else{
+								writeToClient("" + i + " " +  octets.get(i-1));
+								}
 							}
 
 							writeToClient(".");
@@ -213,7 +221,7 @@ class TCPServerThread extends Thread {
 							writeToClient("-ERR message " + args + " already deleted");
 						} else {
 							// mit genau 1 arg: list <nummer der mail> (Integer) -> anzahl
-							writeToClient("+OK " + args + " " + manager.getElem(args).length() + " <" + manager.getOctets() + " octets>");
+							writeToClient("+OK " + args + " " + manager.getElem(args).length() + " <" + manager.getAllOctets() + " octets>");
 							writeToClient(".");
 						}
 						
@@ -223,7 +231,7 @@ class TCPServerThread extends Thread {
 						// keine args
 						// falls mail als gel�scht markiert, machs r�ckg�ngig
 						manager.rset();
-						writeToClient("+OK maildrop has" + " " + manager.getElem(args).length() + " <" + manager.getOctets() + " octets>");
+						writeToClient("+OK maildrop has" + " " + manager.getElem(args).length() + " <" + manager.getAllOctets() + " octets>");
 						// -ERR nicht vorhanden nach rfc
 						break;
 
@@ -288,7 +296,7 @@ class TCPServerThread extends Thread {
 					manager.clearList();
 					manager.getMail();
 					writeToClient("+OK " + authenticUser.getUserName()
-							+ " has " + manager.getSize() + " massages" + " <" + manager.getOctets() + " octets>");
+							+ " has " + manager.getSize() + " massages" + " <" + manager.getAllOctets() + " octets>");
 					loggedIn = true;
 					
 					break;

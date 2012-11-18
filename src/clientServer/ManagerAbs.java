@@ -37,7 +37,23 @@ public class ManagerAbs {
 		
 	}
 	
-	public int getOctets() {
+	
+	public List<Long> getOneOctet() {
+		
+		List<Long> result = new ArrayList<Long>();
+		File dir = new File(absPath);
+		int octets = 0;
+		File[] fileList = dir.listFiles();
+		for (File f : fileList) {
+			if (f.toString().endsWith(".txt") && !list.contains(f.toString())) {
+				result.add(f.length());
+			}
+		}
+		return result;
+	}
+	
+	
+	public int getAllOctets() {
 		File dir = new File(absPath);
 		int octets = 0;
 		

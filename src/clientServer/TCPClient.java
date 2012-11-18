@@ -81,7 +81,7 @@ public class TCPClient {
 
 		// Willkommensnachricht des Servers
 		reply = readFromServer();
-		System.out.println(reply);
+
 		log.logToFile(reply);
 
 		int retriev;
@@ -112,7 +112,7 @@ public class TCPClient {
 			replylocaleFileName = readFromServer(); // server schickt dann uidl
 													// zurück, wir speichern
 													// diese ab
-			System.out.println(replylocaleFileName);
+
 
 			String[] subelem = replylocaleFileName.split(" "); // von stat das
 																// 2. elem ist
